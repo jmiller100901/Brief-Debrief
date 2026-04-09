@@ -1,48 +1,238 @@
 {
   "date": "2026-04-08",
-  "generatedAt": "2026-04-08T21:40:00-05:00",
+  "generatedAt": "2026-04-09T04:25:53.855Z",
   "futures": [
-    {"name": "S&P 500", "value": "6,782.81", "change": "+166.25", "changePercent": "+2.51%", "direction": "up", "url": "https://finance.yahoo.com/quote/%5EGSPC/"},
-    {"name": "Dow Jones", "value": "47,909.92", "change": "+1,325.46", "changePercent": "+2.85%", "direction": "up", "url": "https://finance.yahoo.com/quote/%5EDJI/"},
-    {"name": "Nasdaq", "value": "22,635.00", "change": "+616.80", "changePercent": "+2.80%", "direction": "up", "url": "https://finance.yahoo.com/quote/%5EIXIC/"},
-    {"name": "10Y Treasury", "value": "4.31%", "change": "-0.05", "changePercent": "", "direction": "down", "url": "https://www.cnbc.com/quotes/US10Y"},
-    {"name": "Crude Oil", "value": "$110.24", "change": "-3.18", "changePercent": "-2.80%", "direction": "down", "url": "https://finance.yahoo.com/quote/CL%3DF/"},
-    {"name": "Gold", "value": "$3,285.40", "change": "+42.60", "changePercent": "+1.31%", "direction": "up", "url": "https://finance.yahoo.com/quote/GC%3DF/"}
+    {
+      "name": "S&P 500",
+      "value": "6,782.81",
+      "change": "+170.98",
+      "changePercent": "+2.59%",
+      "direction": "up",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+    },
+    {
+      "name": "Dow Jones",
+      "value": "47,909.92",
+      "change": "+1240.04",
+      "changePercent": "+2.66%",
+      "direction": "up",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "22,634.99",
+      "change": "+638.65",
+      "changePercent": "+2.90%",
+      "direction": "up",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+    },
+    {
+      "name": "10Y Treasury",
+      "value": "4.29%",
+      "change": "-0.05",
+      "changePercent": "-1.20%",
+      "direction": "down",
+      "url": "https://www.cnbc.com/quotes/US10Y"
+    },
+    {
+      "name": "Crude Oil",
+      "value": "$97.40",
+      "change": "+2.99",
+      "changePercent": "+3.17%",
+      "direction": "up",
+      "url": "https://finance.yahoo.com/quote/CL%3DF/"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,745.40",
+      "change": "-4.10",
+      "changePercent": "-0.09%",
+      "direction": "down",
+      "url": "https://finance.yahoo.com/quote/GC%3DF/"
+    }
   ],
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
-    {"title": "US-Iran Two-Week Ceasefire Brokered by Pakistan; Strait of Hormuz to Reopen", "source": "ABC News", "summary": "Iran agreed to reopen Hormuz under a tentative two-week ceasefire. Trump called it a 'double-sided ceasefire' with a workable 10-point peace plan.", "url": "https://abcnews.com/International/live-updates/iran-live-updates-casualties-reported-missile-strikes-israel/?id=131757074", "category": "world"},
-    {"title": "Stocks Soar as Markets Rally on Ceasefire News; Dow Surges 1,325 Points", "source": "Yahoo Finance", "summary": "All three major indexes surged over 2.5% after Trump suspended attacks on Iran, pausing the five-week conflict that disrupted global energy supplies.", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-surge-on-news-of-two-week-us-iran-ceasefire-224505516.html", "category": "markets"},
-    {"title": "Oil Prices Retreat from $110+ as Ceasefire Eases Strait of Hormuz Concerns", "source": "CNBC", "summary": "Brent crude pulled back sharply after surging past $110/barrel. Traders pricing in potential normalization of shipping through Hormuz.", "url": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html", "category": "markets"},
-    {"title": "Vance to Lead US Negotiating Team at First Round of Iran Talks in Islamabad", "source": "Times of Israel", "summary": "VP Vance heading to Pakistan Saturday to lead formal negotiations. Iran's Supreme National Security Council warned 'hands remain on the trigger.'", "url": "https://www.timesofisrael.com/liveblog-april-08-2026/", "category": "politics"},
-    {"title": "Pope Leo XIV Condemns Trump's Threat Against Iranian Civilian Infrastructure", "source": "CNN", "summary": "Pope called Trump's threat that 'a whole civilization will die tonight' if Iran doesn't deal 'truly unacceptable.'", "url": "https://edition.cnn.com/2026/04/08/us/5-things-to-know-for-april-8-us-iran-ceasefire-iran-linked-hackers-ice-shooting-hawaii-flood-threat-missing-american-woman", "category": "world"},
-    {"title": "Treasury Yields Ease to 4.31% as Geopolitical Tension Shifts", "source": "Financial Content", "summary": "10-year yield pulled back from 4.38% intraday high as ceasefire news reduced safe-haven demand. Volatility persists.", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-7-treasury-yields-climb-to-436-amid-geopolitical-uncertainty", "category": "markets"},
-    {"title": "Bitcoin Holds Above $71,900 Amid Market Uncertainty", "source": "Fortune", "summary": "BTC trading at $71,906 as crypto markets react to geopolitical developments and shifting risk appetite.", "url": "https://fortune.com/article/price-of-bitcoin-04-08-2026/", "category": "markets"}
+    {
+      "title": "Stock futures are little changed after Dow posts best day since April 2025 following ceasefire deal: Live updates - CNBC",
+      "source": "CNBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45WmdlR0FzS1JSRUNoVkFrRjFYRlU1RFVJMUR0Q2dBbE9CeHd1b0JjQkt3bkxpWldnMkRJZ0VkRUZtUFhVd2doUk5LeVk4cWdMRkxZVFdxNXR1NEtRSlUzdkVFSWhsdjR5SFJUMnRQSHQza3ZfUjZn0gF8QVVfeXFMT05BeThfRHFSVWpDOTFMWTdINkplZ1F4NUpsbkN6Z0ZvREhNcnl4aGszSzJVbWg2enZHdllDaE5CVGtkRExqTm1lU01OQUVMeDFFTExoNXM2S090NjlMSVFqOS1QREhpTDRyalUwSktSX1hMeXU0RldTYkZkRQ?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Adam Back Denies He Is Satoshi Nakamoto in Response to Times Investigation - The New York Times",
+      "source": "The New York Times",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTmxaR1RGY1lwa1dnTE9oNy1hWjgwVkI0eE9IT3lVeE1XOWs1S1MyZzJuV29VTXlfMzZCVnluYmlydFM1c2VRZUQzcEtvaDQyRDFmVmt3ZGFrbVJ0OFZyUUV2Z19ndVgxT2FqRW8wVlFabmFPQmotTFdMU3JTOHhLTFJaLURaTXk5Tzlj?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Meta unveils first AI model from costly superintelligence team - Reuters",
+      "source": "Reuters",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMGlQRHNjbkNMampHRlJWOVkxUTlLdmlUMWZoZTJOa05TZFgtNWppRVpBYk5XT0xVdVRBbHFqSlE2NDRQdHBEcGVaZ2p2dnFrZFhjZThBYjV4SlZFekNkdERsWHhhck1HU0NHUjdRNTY3OTg3TExWNXd2cVd4aldaV2tOVWVGZW5BYzRJYTNkWHJlcklfc3FkTmpOOWl3S3MzZTlOSktEVkFUXzZiU21SUUdXZ3J1UDNZaHIxR3RHQnNzR2VfYTZxRVVaQQ?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Paramount Unlikely To Replace Jeff Shell, Insiders Say; Deep Bench To Step Up As WBD Deal Close Approaches - Deadline",
+      "source": "Deadline",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQanhqdjdIRHp5WW03YTNVVlhnS2IxSWpDRmcyM0lMdkFrazV5YXc1OFVhLVUxcVFnZmY3b3BBM3ZySlpFYU93ZU10a2s4VVZyN05NVVQ3QThZRVpyVXE5Vy15dndrWFBYMXR0UURORURodGx2cmNsQmJaNUo3WDFBMWZQOEtndw?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "President Trump’s ceasefire with Iran draws praise from world leaders - Fox News",
+      "source": "Fox News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzlkeW5RWXFGNmgzMkZFbDhJbkJSdHA5RXA3X1ZlSGJFeTVzTzVJZUJLMHBpRG9pVFR3YTdVUzJhcTdib0FScl9xZnhnM1daQlRZZG5NRkRDYjZranlDNS1GV0dWSFNyZ2l4U2RmQzYycE84VlJybDRnYl9iSDFELUs0blNjS1VSNlJtT0RaREtUZmxSZGZOUC12ZWZQWXdHUm1rYmRXWHZOQdIBrwFBVV95cUxNWG9xNk5USVZ0eE9aU3h4ZDBBRmxRYmlSU0EtSjBVMm93ZjRzVGJ0bmtJd0xTLUFLS0xpSElWd25LU0pValM5aDB3b04yV2FUN0hHc0MyZ2pENE1vVGEwemthRmxvTnlXLXRxSGw1MVltb1dMS3ZhYzBaQmJ1QWhJRnktbHZOWXhRR0s4QjdsMkh2SFpzRzdNaDBYT3JnWm94T0t2QnVDV1k0TEdkalcw?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes - BBC",
+      "source": "BBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13LWVXQzlWMFVKRUYxa1o0dElLbktVSkREQlN2SW5KUUw0dF9lWkdNTUV5b01DMGVyUDB4d1NBdTVnRGRURFhzallZT0tneEN1OG1xcUNoUTJSZw?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Pam Bondi defies House subpoena over Epstein files - Axios",
+      "source": "Axios",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnI1SzZ6aTgxMU94aTBlX2xkTmZSUk44WnRYUGlwV0xJeE9FRXU4VXR0NVpNSHhuSmFZTVBqUVFnbDNHdXZoa3B6ZmgzMjZGaENQWlg3cF9vdk1RQTFnNWRCcTdwWWYzdVRoTDJ0S3p2Q25hYXpWTllsbHRLekxMTQ?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Police in the Bahamas arrest husband of US woman who vanished from boat - AP News",
+      "source": "AP News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVkJtR2pxZ29UZHlubDhndG1RU3VfTHAzbjRWTV9xVW9mYlZBRkU1bmF6enhRSHFjdk5ReHNyNFMwcW5KTXVKaldyajlzZHlBSFZBaUt4SUY0UGhuMzVEUnVybFFOWVZpLVNsT3psbU9tYm5JSnN3UV9ldTJVbk51Tnk3MC1UVVpSTFJTcHVROFAwUWl6NklrSE9mZnlTVGRvWUNVQzI0bVVENmM?oc=5",
+      "category": "world"
+    }
   ],
   "calendar": [
-    {"time": "10:30 AM", "title": "Monthly Industrial Update Call", "location": "Teams / JSConf1 / Houston Conf / Front Conf", "attendees": ["gpearson", "mwheeler", "jstone", "mbutler", "rwatler", "mterry", "rbeadle", "swynne", "sclark"]},
-    {"time": "12:00 PM", "title": "Claude AI Demo", "location": "Teams / Front Conf Room", "attendees": ["mbutler", "mwheeler", "jstone", "gpearson", "rwatler", "rbeadle", "mterry"]},
-    {"time": "2:30 PM", "title": "Finance Team - Survey Lenders - Tao BTS - PSA Structure", "location": "Front Conf Room", "attendees": ["jstone", "mbutler"]}
+    {
+      "time": "10:30 AM",
+      "title": "Monthly Industrial Update Call",
+      "location": "Teams / JSConf1 / Houston Conf / Front Conf",
+      "attendees": [
+        "gpearson",
+        "mwheeler",
+        "jstone",
+        "mbutler",
+        "rwatler",
+        "mterry",
+        "rbeadle",
+        "swynne",
+        "sclark"
+      ]
+    },
+    {
+      "time": "12:00 PM",
+      "title": "Claude AI Demo",
+      "location": "Teams / Front Conf Room",
+      "attendees": [
+        "mbutler",
+        "mwheeler",
+        "jstone",
+        "gpearson",
+        "rwatler",
+        "rbeadle",
+        "mterry"
+      ]
+    },
+    {
+      "time": "2:30 PM",
+      "title": "Finance Team - Survey Lenders - Tao BTS - PSA Structure",
+      "location": "Front Conf Room",
+      "attendees": [
+        "jstone",
+        "mbutler"
+      ]
+    }
   ],
   "weekAhead": [
-    {"day": "Thursday", "date": "Apr 9", "events": [
-      {"time": "1:30 PM", "title": "4890 Alpha Rd - GPM Life Contact"}
-    ]}
+    {
+      "day": "Thursday",
+      "date": "Apr 9",
+      "events": [
+        {
+          "time": "1:30 PM",
+          "title": "4890 Alpha Rd - GPM Life Contact"
+        }
+      ]
+    }
   ],
   "emailHighlights": [
-    {"subject": "Jackson Shaw / CBRE", "from": "John Stone", "summary": "Asked Jack to regenerate docs removing all CBRE/AON references and wiring info. Jack completed and sent back.", "action": "Verify John Stone confirmed final docs are acceptable", "urgency": "high"},
-    {"subject": "LKN Crossing - Debt Outreach", "from": "Jack Miller / John Stone", "summary": "Lender list sent to team. John Stone asked to sort by Lifeco / Single Source / Likely Syndication. Jack rearranged and resent.", "action": "Await feedback on lender rankings", "urgency": "high"},
-    {"subject": "4890 Alpha Rd - GPM Life Lien / DOT Release", "from": "John Stone / Clint Hennessey (GPM Life)", "summary": "Deed of trust shared with title team. GPM Life's Clint Hennessey responded. Northmarq's R. Reese also involved.", "action": "Prep for tomorrow's GPM Life Contact meeting", "urgency": "medium"},
-    {"subject": "JV Sensitivity Analysis", "from": "Jack Miller", "summary": "Shared land JV model with team. Max price $2.20/SF. Ryan meeting with seller next week.", "action": "Follow up with Ryan post-seller meeting", "urgency": "medium"},
-    {"subject": "Landis Ridge - Tax Reimbursement", "from": "Ryan Beadle", "summary": "Asking finance team to verify calculations and decide whether to request interest on the reimbursement.", "action": "Review and respond on interest question", "urgency": "medium"},
-    {"subject": "Simmons/Danny", "from": "John Stone", "summary": "Reached out to Danny but couldn't connect. Expecting callback. Michele Wheeler acknowledged.", "action": "Monitor for Danny callback", "urgency": "low"}
+    {
+      "subject": "Jackson Shaw / CBRE",
+      "from": "John Stone",
+      "summary": "Asked Jack to regenerate docs removing all CBRE/AON references and wiring info. Jack completed and sent back.",
+      "action": "Verify John Stone confirmed final docs are acceptable",
+      "urgency": "high"
+    },
+    {
+      "subject": "LKN Crossing - Debt Outreach",
+      "from": "Jack Miller / John Stone",
+      "summary": "Lender list sent to team. John Stone asked to sort by Lifeco / Single Source / Likely Syndication. Jack rearranged and resent.",
+      "action": "Await feedback on lender rankings",
+      "urgency": "high"
+    },
+    {
+      "subject": "4890 Alpha Rd - GPM Life Lien / DOT Release",
+      "from": "John Stone / Clint Hennessey (GPM Life)",
+      "summary": "Deed of trust shared with title team. GPM Life's Clint Hennessey responded. Northmarq's R. Reese also involved.",
+      "action": "Prep for tomorrow's GPM Life Contact meeting",
+      "urgency": "medium"
+    },
+    {
+      "subject": "JV Sensitivity Analysis",
+      "from": "Jack Miller",
+      "summary": "Shared land JV model with team. Max price $2.20/SF. Ryan meeting with seller next week.",
+      "action": "Follow up with Ryan post-seller meeting",
+      "urgency": "medium"
+    },
+    {
+      "subject": "Landis Ridge - Tax Reimbursement",
+      "from": "Ryan Beadle",
+      "summary": "Asking finance team to verify calculations and decide whether to request interest on the reimbursement.",
+      "action": "Review and respond on interest question",
+      "urgency": "medium"
+    },
+    {
+      "subject": "Simmons/Danny",
+      "from": "John Stone",
+      "summary": "Reached out to Danny but couldn't connect. Expecting callback. Michele Wheeler acknowledged.",
+      "action": "Monitor for Danny callback",
+      "urgency": "low"
+    }
   ],
   "priorities": [
-    {"item": "LKN Crossing debt outreach", "status": "active", "relatedActivity": "Lender list sent and rearranged per John Stone's request. Meeting invites accepted by team."},
-    {"item": "CBRE document cleanup", "status": "done", "relatedActivity": "Completed and sent back to John Stone with all CBRE/AON references removed."},
-    {"item": "Tao BTS - PSA structure", "status": "active", "relatedActivity": "Finance team meeting at 2:30 PM today to discuss lender survey."},
-    {"item": "GPM Life lien release", "status": "active", "relatedActivity": "Clint Hennessey from GPM responded. Meeting tomorrow at 1:30 PM."},
-    {"item": "Landis Ridge tax reimbursement", "status": "pending", "relatedActivity": "Ryan Beadle awaiting finance team input on interest question."}
+    {
+      "item": "LKN Crossing debt outreach",
+      "status": "active",
+      "relatedActivity": "Lender list sent and rearranged per John Stone's request. Meeting invites accepted by team."
+    },
+    {
+      "item": "CBRE document cleanup",
+      "status": "done",
+      "relatedActivity": "Completed and sent back to John Stone with all CBRE/AON references removed."
+    },
+    {
+      "item": "Tao BTS - PSA structure",
+      "status": "active",
+      "relatedActivity": "Finance team meeting at 2:30 PM today to discuss lender survey."
+    },
+    {
+      "item": "GPM Life lien release",
+      "status": "active",
+      "relatedActivity": "Clint Hennessey from GPM responded. Meeting tomorrow at 1:30 PM."
+    },
+    {
+      "item": "Landis Ridge tax reimbursement",
+      "status": "pending",
+      "relatedActivity": "Ryan Beadle awaiting finance team input on interest question."
+    }
   ],
   "actionItems": [
     "Prep for Claude AI Demo at noon - have examples ready",

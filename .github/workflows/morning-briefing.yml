@@ -1,0 +1,34 @@
+name: Morning Briefing
+
+on:
+  schedule:
+    - cron: '15 12 * * 1-5'  # 7:15 AM CT (UTC-5)
+  workflow_dispatch:          # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch market data and news
+        run: node scripts/update-briefing.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/briefing.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update morning briefing — $(date -u +%Y-%m-%d)"
+            git push
+          fi

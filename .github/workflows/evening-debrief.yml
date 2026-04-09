@@ -1,0 +1,45 @@
+name: Evening Debrief
+
+on:
+  schedule:
+    - cron: '45 21 * * 1-5'  # 4:45 PM CT (UTC-5)
+  workflow_dispatch:          # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-debrief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update debrief timestamp
+        run: |
+          node -e "
+          const fs = require('fs');
+          const f = 'data/debriefing.json';
+          let data = {};
+          try { data = JSON.parse(fs.readFileSync(f, 'utf-8')); } catch(e) {}
+          const now = new Date();
+          data.date = now.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+          data.generatedAt = now.toISOString();
+          fs.writeFileSync(f, JSON.stringify(data, null, 2));
+          console.log('Updated debrief timestamp');
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/debriefing.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update evening debrief — $(date -u +%Y-%m-%d)"
+            git push
+          fi
