@@ -110,136 +110,140 @@
       "category": "world"
     }
   ],
-  "calendar": [
-    {
-      "time": "10:30 AM",
-      "title": "Monthly Industrial Update Call",
-      "location": "Teams / JSConf1 / Houston Conf / Front Conf",
-      "attendees": [
-        "gpearson",
-        "mwheeler",
-        "jstone",
-        "mbutler",
-        "rwatler",
-        "mterry",
-        "rbeadle",
-        "swynne",
-        "sclark"
-      ]
-    },
-    {
-      "time": "12:00 PM",
-      "title": "Claude AI Demo",
-      "location": "Teams / Front Conf Room",
-      "attendees": [
-        "mbutler",
-        "mwheeler",
-        "jstone",
-        "gpearson",
-        "rwatler",
-        "rbeadle",
-        "mterry"
-      ]
-    },
-    {
-      "time": "2:30 PM",
-      "title": "Finance Team - Survey Lenders - Tao BTS - PSA Structure",
-      "location": "Front Conf Room",
-      "attendees": [
-        "jstone",
-        "mbutler"
-      ]
-    }
-  ],
+  "calendar": [],
   "weekAhead": [
     {
-      "day": "Thursday",
-      "date": "Apr 9",
+      "day": "Monday",
+      "date": "Apr 13",
       "events": [
         {
-          "time": "1:30 PM",
-          "title": "4890 Alpha Rd - GPM Life Contact"
+          "time": "9:30 AM",
+          "title": "Weekly Pipeline Review"
+        },
+        {
+          "time": "3:30 PM",
+          "title": "LKN Crossing Debt Strategy"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "date": "Apr 14",
+      "events": [
+        {
+          "time": "3:00 PM",
+          "title": "ATX 130 Leasing Call"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "Apr 15",
+      "events": [
+        {
+          "time": "11:45 AM",
+          "title": "Jack Miller / Travis McEldowney - Lunch"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "date": "Apr 16",
+      "events": [
+        {
+          "time": "3:00 PM",
+          "title": "April Birthdays"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "date": "Apr 17",
+      "events": [
+        {
+          "time": "All Day",
+          "title": "Jack WFH - MKE"
         }
       ]
     }
   ],
   "emailHighlights": [
     {
-      "subject": "Jackson Shaw / CBRE",
+      "subject": "4890 Alpha Rd - Old Lender Docs",
       "from": "John Stone",
-      "summary": "Asked Jack to regenerate docs removing all CBRE/AON references and wiring info. Jack completed and sent back.",
-      "action": "Verify John Stone confirmed final docs are acceptable",
+      "summary": "Prior to Harmony/Texas Brand Bank, there was a loan on 4890 with another lender. John needs Jack to search SharePoint and old G drive for any documents on this loan and coordinate communications.",
+      "action": "Search SharePoint and G drive for old 4890 loan docs",
       "urgency": "high"
     },
     {
-      "subject": "LKN Crossing - Debt Outreach",
-      "from": "Jack Miller / John Stone",
-      "summary": "Lender list sent to team. John Stone asked to sort by Lifeco / Single Source / Likely Syndication. Jack rearranged and resent.",
-      "action": "Await feedback on lender rankings",
+      "subject": "SHC/CT Lender Selection",
+      "from": "John Stone",
+      "summary": "Asking if lender selection by 4/17 is reasonable. Plan: get TCB term sheet mid next week, update matrix, make selection, send to TP for approval.",
+      "action": "Target 4/17 for lender selection — track TCB term sheet",
       "urgency": "high"
     },
     {
-      "subject": "4890 Alpha Rd - GPM Life Lien / DOT Release",
-      "from": "John Stone / Clint Hennessey (GPM Life)",
-      "summary": "Deed of trust shared with title team. GPM Life's Clint Hennessey responded. Northmarq's R. Reese also involved.",
-      "action": "Prep for tomorrow's GPM Life Contact meeting",
-      "urgency": "medium"
-    },
-    {
-      "subject": "JV Sensitivity Analysis",
-      "from": "Jack Miller",
-      "summary": "Shared land JV model with team. Max price $2.20/SF. Ryan meeting with seller next week.",
-      "action": "Follow up with Ryan post-seller meeting",
-      "urgency": "medium"
-    },
-    {
-      "subject": "Landis Ridge - Tax Reimbursement",
-      "from": "Ryan Beadle",
-      "summary": "Asking finance team to verify calculations and decide whether to request interest on the reimbursement.",
-      "action": "Review and respond on interest question",
-      "urgency": "medium"
-    },
-    {
-      "subject": "Simmons/Danny",
+      "subject": "Lakeview - Full Cycle Waterfall",
       "from": "John Stone",
-      "summary": "Reached out to Danny but couldn't connect. Expecting callback. Michele Wheeler acknowledged.",
-      "action": "Monitor for Danny callback",
+      "summary": "John asked Mark/Jack to prepare a full cycle Lakeview waterfall so it's ready when BOV is done. Mark confirmed.",
+      "action": "Prepare Lakeview waterfall model",
+      "urgency": "high"
+    },
+    {
+      "subject": "Project Summary Update",
+      "from": "John Stone",
+      "summary": "Internal use — update Project Summary with Landis II and Lakeview II (BTS) deals. Early next week is fine. Send just to John.",
+      "action": "Update Project Summary with Landis II and Lakeview II by early next week",
+      "urgency": "medium"
+    },
+    {
+      "subject": "Georgetown Cash vs Budget",
+      "from": "Miles Terry",
+      "summary": "Budget updated. For account balances, reduce bond company balance by March Arco payment since budget numbers revised with March draw.",
+      "action": "Adjust bond balance for March Arco payment in Georgetown model",
+      "urgency": "medium"
+    },
+    {
+      "subject": "Claude for Jackson Shaw Demo v4",
+      "from": "Mark Butler",
+      "summary": "Sent updated demo pptx for review. Demo happened yesterday.",
+      "action": "Review and provide feedback on demo deck",
       "urgency": "low"
     }
   ],
   "priorities": [
     {
-      "item": "LKN Crossing debt outreach",
+      "item": "LKN Crossing debt strategy",
       "status": "active",
-      "relatedActivity": "Lender list sent and rearranged per John Stone's request. Meeting invites accepted by team."
+      "relatedActivity": "Debt strategy meeting Mon 4/13 at 3:30 PM. Lender selection target 4/17."
     },
     {
-      "item": "CBRE document cleanup",
-      "status": "done",
-      "relatedActivity": "Completed and sent back to John Stone with all CBRE/AON references removed."
-    },
-    {
-      "item": "Tao BTS - PSA structure",
+      "item": "4890 Alpha Rd - old lender docs",
       "status": "active",
-      "relatedActivity": "Finance team meeting at 2:30 PM today to discuss lender survey."
+      "relatedActivity": "John Stone needs SharePoint/G drive search for prior loan documents."
     },
     {
-      "item": "GPM Life lien release",
+      "item": "Lakeview full cycle waterfall",
       "status": "active",
-      "relatedActivity": "Clint Hennessey from GPM responded. Meeting tomorrow at 1:30 PM."
+      "relatedActivity": "Mark confirmed. Needs to be ready for BOV completion."
     },
     {
-      "item": "Landis Ridge tax reimbursement",
+      "item": "Project Summary update",
       "status": "pending",
-      "relatedActivity": "Ryan Beadle awaiting finance team input on interest question."
+      "relatedActivity": "Landis II + Lakeview II updates due early next week to John Stone."
+    },
+    {
+      "item": "Georgetown budget adjustment",
+      "status": "pending",
+      "relatedActivity": "Miles Terry updated budget; Jack needs to adjust bond balance for March Arco payment."
     }
   ],
   "actionItems": [
-    "Prep for Claude AI Demo at noon - have examples ready",
-    "Review Landis Ridge tax reimbursement and respond to Ryan Beadle on interest question",
-    "Prep lender survey materials for 2:30 PM Tao BTS meeting",
-    "Research Robert Draper / GPM Life ahead of tomorrow's 1:30 PM meeting",
-    "Confirm CBRE doc cleanup is accepted by John Stone",
-    "Monitor for Danny Simmons callback"
+    "Search SharePoint and old G drive for 4890 Alpha Rd prior lender docs per John Stone",
+    "Prepare Lakeview full cycle waterfall model",
+    "Adjust Georgetown bond balance for March Arco payment per Miles Terry",
+    "Update Project Summary with Landis II and Lakeview II by early next week",
+    "Track TCB term sheet for SHC/CT lender selection by 4/17",
+    "Review Claude demo v4 deck from Mark Butler"
   ]
 }
