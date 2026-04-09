@@ -4,9 +4,9 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, '..', 'data', 'briefing.json');
 
 const FUTURES_SYMBOLS = [
-  { name: 'S&P 500', symbol: '^GSPC', url: 'https://finance.yahoo.com/quote/%5EGSPC/' },
-  { name: 'Dow Jones', symbol: '^DJI', url: 'https://finance.yahoo.com/quote/%5EDJI/' },
-  { name: 'Nasdaq', symbol: '^IXIC', url: 'https://finance.yahoo.com/quote/%5EIXIC/' },
+  { name: 'S&P 500 Futures', symbol: 'ES=F', url: 'https://finance.yahoo.com/quote/ES%3DF/' },
+  { name: 'Dow Futures', symbol: 'YM=F', url: 'https://finance.yahoo.com/quote/YM%3DF/' },
+  { name: 'Nasdaq Futures', symbol: 'NQ=F', url: 'https://finance.yahoo.com/quote/NQ%3DF/' },
   { name: '10Y Treasury', symbol: '^TNX', url: 'https://www.cnbc.com/quotes/US10Y' },
   { name: 'Crude Oil', symbol: 'CL=F', url: 'https://finance.yahoo.com/quote/CL%3DF/' },
   { name: 'Gold', symbol: 'GC=F', url: 'https://finance.yahoo.com/quote/GC%3DF/' },
@@ -29,7 +29,7 @@ async function fetchYahooQuote(symbol) {
     const changePct = (change / prevClose) * 100;
 
     return {
-      value: symbol === '^TNX' ? price.toFixed(2) + '%' : (symbol.includes('=F') ? '$' : '') + price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+      value: symbol === '^TNX' ? price.toFixed(2) + '%' : (['CL=F', 'GC=F'].includes(symbol) ? '$' : '') + price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
       change: (change >= 0 ? '+' : '') + change.toFixed(2),
       changePercent: (change >= 0 ? '+' : '') + changePct.toFixed(2) + '%',
       direction: change >= 0 ? 'up' : 'down',

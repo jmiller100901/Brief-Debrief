@@ -1,112 +1,112 @@
 {
-  "date": "2026-04-08",
-  "generatedAt": "2026-04-09T04:25:53.855Z",
+  "date": "2026-04-09",
+  "generatedAt": "2026-04-09T13:44:05.237Z",
   "futures": [
     {
-      "name": "S&P 500",
-      "value": "6,782.81",
-      "change": "+170.98",
-      "changePercent": "+2.59%",
-      "direction": "up",
-      "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      "name": "S&P 500 Futures",
+      "value": "6,812.75",
+      "change": "-11.00",
+      "changePercent": "-0.16%",
+      "direction": "down",
+      "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
-      "name": "Dow Jones",
-      "value": "47,909.92",
-      "change": "+1240.04",
-      "changePercent": "+2.66%",
-      "direction": "up",
-      "url": "https://finance.yahoo.com/quote/%5EDJI/"
+      "name": "Dow Futures",
+      "value": "47,981.00",
+      "change": "-163.00",
+      "changePercent": "-0.34%",
+      "direction": "down",
+      "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
-      "name": "Nasdaq",
-      "value": "22,634.99",
-      "change": "+638.65",
-      "changePercent": "+2.90%",
-      "direction": "up",
-      "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      "name": "Nasdaq Futures",
+      "value": "25,040.50",
+      "change": "-33.75",
+      "changePercent": "-0.13%",
+      "direction": "down",
+      "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.29%",
-      "change": "-0.05",
-      "changePercent": "-1.20%",
-      "direction": "down",
+      "value": "4.30%",
+      "change": "+0.01",
+      "changePercent": "+0.19%",
+      "direction": "up",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$97.40",
-      "change": "+2.99",
-      "changePercent": "+3.17%",
+      "value": "$99.34",
+      "change": "+4.93",
+      "changePercent": "+5.22%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,745.40",
-      "change": "-4.10",
-      "changePercent": "-0.09%",
-      "direction": "down",
+      "value": "$4,782.00",
+      "change": "+32.50",
+      "changePercent": "+0.68%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
   ],
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Stock futures are little changed after Dow posts best day since April 2025 following ceasefire deal: Live updates - CNBC",
-      "source": "CNBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45WmdlR0FzS1JSRUNoVkFrRjFYRlU1RFVJMUR0Q2dBbE9CeHd1b0JjQkt3bkxpWldnMkRJZ0VkRUZtUFhVd2doUk5LeVk4cWdMRkxZVFdxNXR1NEtRSlUzdkVFSWhsdjR5SFJUMnRQSHQza3ZfUjZn0gF8QVVfeXFMT05BeThfRHFSVWpDOTFMWTdINkplZ1F4NUpsbkN6Z0ZvREhNcnl4aGszSzJVbWg2enZHdllDaE5CVGtkRExqTm1lU01OQUVMeDFFTExoNXM2S090NjlMSVFqOS1QREhpTDRyalUwSktSX1hMeXU0RldTYkZkRQ?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Adam Back Denies He Is Satoshi Nakamoto in Response to Times Investigation - The New York Times",
-      "source": "The New York Times",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTmxaR1RGY1lwa1dnTE9oNy1hWjgwVkI0eE9IT3lVeE1XOWs1S1MyZzJuV29VTXlfMzZCVnluYmlydFM1c2VRZUQzcEtvaDQyRDFmVmt3ZGFrbVJ0OFZyUUV2Z19ndVgxT2FqRW8wVlFabmFPQmotTFdMU3JTOHhLTFJaLURaTXk5Tzlj?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Meta unveils first AI model from costly superintelligence team - Reuters",
+      "title": "Goldman Sachs lowers second-quarter 2026 oil price forecasts - Reuters",
       "source": "Reuters",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMGlQRHNjbkNMampHRlJWOVkxUTlLdmlUMWZoZTJOa05TZFgtNWppRVpBYk5XT0xVdVRBbHFqSlE2NDRQdHBEcGVaZ2p2dnFrZFhjZThBYjV4SlZFekNkdERsWHhhck1HU0NHUjdRNTY3OTg3TExWNXd2cVd4aldaV2tOVWVGZW5BYzRJYTNkWHJlcklfc3FkTmpOOWl3S3MzZTlOSktEVkFUXzZiU21SUUdXZ3J1UDNZaHIxR3RHQnNzR2VfYTZxRVVaQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMkdhUG5obzluWnBzYm5fV05RWG1jejhFa2k0d3pMSFdwMHpYV0F3dXloV0hfTEQ5eGtKcnhmZ1RmMjFGNTlac2g4WUUyU2ZibDhpTUdGWHQ3WnpzTmppU3BkZHE1NnBUaXBFVU1oV2lNTnBjTHAxT25Tcm1tNm1KSi1IVjhLdkxmZm5nTzZDWURGUjRnQjh5WEJ4SDBaN1BNdGFHQUdPbXdiV2hja1g3Y2hR?oc=5",
       "category": "business"
     },
     {
-      "title": "Paramount Unlikely To Replace Jeff Shell, Insiders Say; Deep Bench To Step Up As WBD Deal Close Approaches - Deadline",
-      "source": "Deadline",
+      "title": "Core inflation was 3% in February, as expected, key Fed gauge shows - CNBC",
+      "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQanhqdjdIRHp5WW03YTNVVlhnS2IxSWpDRmcyM0lMdkFrazV5YXc1OFVhLVUxcVFnZmY3b3BBM3ZySlpFYU93ZU10a2s4VVZyN05NVVQ3QThZRVpyVXE5Vy15dndrWFBYMXR0UURORURodGx2cmNsQmJaNUo3WDFBMWZQOEtndw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVXRRTHlyTzR3OGdocHl0OE96UGVRdHNPSVB0Ti1EcXhxbzBZWGpLWV9MNTZRTlNxZVF2VkFRanhTOEFBYThmWkFaT2VTVkNtM3B4blNDYkVDNVB4REVoUTZEbkg2NjFqLWRNRllzbnY3QzhCc2NWcy10dTRUeEF2eDdJem0ybmw1SVBTZWdRUF9Jc0tiZ1dlc2hoaGVZM2FQY29BeFVoeUxETENp0gGyAUFVX3lxTE5adE04dDkyN3M2cmlXcW9BaUFFWl9PVXYwVVlhWkM2RWx5ZHBjWXhYd25EXzRzc0Q2NVIydU9CSEFTVlVYczZaSXJ6VHRUU2QycVRQcUlRS2JUREp5elpqWjl2VDdHVnFlVVFReGxNci1BQTJSMkJoeHhQaUhYMzZmRXlQOGowUk5YQTViWmJSMkRRNUV3MTFxTmZZamdkZnBJS3ZBUG55d2Y0SFRRSF9UN0E?oc=5",
       "category": "business"
     },
     {
-      "title": "President Trump’s ceasefire with Iran draws praise from world leaders - Fox News",
-      "source": "Fox News",
+      "title": "Expensive jet fuel to drive up Delta’s flight cuts, passenger costs - Star Tribune",
+      "source": "Star Tribune",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzlkeW5RWXFGNmgzMkZFbDhJbkJSdHA5RXA3X1ZlSGJFeTVzTzVJZUJLMHBpRG9pVFR3YTdVUzJhcTdib0FScl9xZnhnM1daQlRZZG5NRkRDYjZranlDNS1GV0dWSFNyZ2l4U2RmQzYycE84VlJybDRnYl9iSDFELUs0blNjS1VSNlJtT0RaREtUZmxSZGZOUC12ZWZQWXdHUm1rYmRXWHZOQdIBrwFBVV95cUxNWG9xNk5USVZ0eE9aU3h4ZDBBRmxRYmlSU0EtSjBVMm93ZjRzVGJ0bmtJd0xTLUFLS0xpSElWd25LU0pValM5aDB3b04yV2FUN0hHc0MyZ2pENE1vVGEwemthRmxvTnlXLXRxSGw1MVltb1dMS3ZhYzBaQmJ1QWhJRnktbHZOWXhRR0s4QjdsMkh2SFpzRzdNaDBYT3JnWm94T0t2QnVDV1k0TEdkalcw?oc=5",
-      "category": "world"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc2lKbzZIVjlpREliZUJHbDRENVpjdkJ2ZHE5QzBHdWx2cjg5cG1lRXkxNWkzRnhVV1ZZZDVfRnR5SElCcFJ3aVJHd1Z2WFI2RG80SDdjc2dETmJQaWxBZWxjS3BQamlVSzdYdVJSMWkzUjVzQ21nNTVVaWFxdFdUYXlHU0VxS0VGbEZubzhydDhpbWJDdnk3dHEzc1k3WVVVTWZIMzVR?oc=5",
+      "category": "business"
     },
     {
-      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes - BBC",
-      "source": "BBC",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 4th Quarter and Year 2025 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
+      "source": "U.S. Bureau of Economic Analysis (BEA) (.gov)",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13LWVXQzlWMFVKRUYxa1o0dElLbktVSkREQlN2SW5KUUw0dF9lWkdNTUV5b01DMGVyUDB4d1NBdTVnRGRURFhzallZT0tneEN1OG1xcUNoUTJSZw?oc=5",
-      "category": "world"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQXRzVlRlbmlONkpELWFMOTBCUHdzODZ5SEZQbXB0cXlBeGh6MU1GTjdzc01pMGp3QWtRLWJmXzZvcEptMkRZVFc5dGlWN0tEYU1zTUdlRE9KdVJ0bVhQbHdnVmxkZDQ5T0hhT1RsSVcwbDRyODlQMl95ZHBKRk1LU25QOFFHa0ZMSEc4ZWtWZ2RZMms5dVVjaXRnSWcyWkNZSnNSY0RNOEsySXlfLXpEV3ZfVVh4enlq?oc=5",
+      "category": "business"
     },
     {
-      "title": "Pam Bondi defies House subpoena over Epstein files - Axios",
+      "title": "Vance: Israel offered to restrain strikes in Lebanon during U.S.-Iran talks - Axios",
       "source": "Axios",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnI1SzZ6aTgxMU94aTBlX2xkTmZSUk44WnRYUGlwV0xJeE9FRXU4VXR0NVpNSHhuSmFZTVBqUVFnbDNHdXZoa3B6ZmgzMjZGaENQWlg3cF9vdk1RQTFnNWRCcTdwWWYzdVRoTDJ0S3p2Q25hYXpWTllsbHRLekxMTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52VTBDNXRXMGhVa1A5TGppMktITEZibnRHM0ZRSTJnLTg4U0wxdk5KZ2lmek13WTNpSkM0eTdZOE02RXNNYXRFajNsNFh6MTlkb3ZjbEM0RGIyMGdQRUlJVG9PbHRHakdKazNxbWc0cnp3Ynhqa2k0Zw?oc=5",
       "category": "world"
     },
     {
-      "title": "Police in the Bahamas arrest husband of US woman who vanished from boat - AP News",
-      "source": "AP News",
+      "title": "After Trump pauses war, Iranians fly flags of victory, not surrender - The Washington Post",
+      "source": "The Washington Post",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVkJtR2pxZ29UZHlubDhndG1RU3VfTHAzbjRWTV9xVW9mYlZBRkU1bmF6enhRSHFjdk5ReHNyNFMwcW5KTXVKaldyajlzZHlBSFZBaUt4SUY0UGhuMzVEUnVybFFOWVZpLVNsT3psbU9tYm5JSnN3UV9ldTJVbk51Tnk3MC1UVVpSTFJTcHVROFAwUWl6NklrSE9mZnlTVGRvWUNVQzI0bVVENmM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNTd2ZGtJRmRMS0ZXaTBzRG9NeklqTzV3TXBxeWFiT3d5UEU4cjd6dFdRM0RTdnB1WkVhSEdxdW5hX1B6R1R1MEhBR3FrVlp1MHFWemtoVGw3VUE2eTBQOXhodFI4bncyMk5qczRYRkJvdll5V2F6OFdKQnY4dVJVbHdfRDJkc1RTQXMyYlNyWQ?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Husband’s arrest in disappearance of American woman in the Bahamas puts his account under scrutiny - CNN",
+      "source": "CNN",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaGRLX1NHUHRwZm4xaV9mZDlCajBWSGpVQzdrb2RWZklmSHc3ZGNaMFRFNDdfYmdicXoxWUMwakZGVEh2d21kMVZHZnQ0NzNUMTV0TjJ6Uy1oTlZ3NG1MaExwcG1fQjVFenAwVVlDS1BDWXFWMnhmazlvd3doMF9lMA?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Iranian delegation to reach Islamabad Thursday, Iran's ambassador to Pakistan says - Reuters",
+      "source": "Reuters",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVGtweFpLVndhNHNlZ21FR3pRc1Q2UDkzV0EzeXIwaXBhcS0wZG5oRHlxZkw3S19yZkVkaFBXOTZIMW9KcFRWNlctdmdDOUFEbnRXLWpqcTk2U2dXQWV1blNsdTYycEhkdFZxUGRNb3QxNlU3Zm5kQXI4RnQyaWdlMnMyWHFacC1TWDBXZEc2VmtQT1gtM2REU3hxNFZGOE9IWTFSWWc5Y1BFU0JReE16ZWNESkptZjExaFdQSUc0a3NLaW14YTliUA?oc=5",
       "category": "world"
     }
   ],

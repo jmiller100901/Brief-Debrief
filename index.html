@@ -75,6 +75,27 @@
     border:1px solid var(--border);
   }
   .header-right{display:flex;align-items:center;gap:16px}
+  .refresh-btn{
+    background:none;
+    border:1px solid var(--border);
+    color:var(--text-secondary);
+    padding:6px 14px;
+    border-radius:6px;
+    font-family:var(--mono);
+    font-size:0.75rem;
+    cursor:pointer;
+    transition:border-color 0.15s,color 0.15s,background 0.15s;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .refresh-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .refresh-btn:active{background:var(--accent-dim)}
+  .refresh-btn.refreshing{pointer-events:none;opacity:0.5}
+  .refresh-btn .spin{display:inline-block;transition:transform 0.3s}
+  .refresh-btn.refreshing .spin{animation:spinOnce 0.6s ease-in-out}
+  @keyframes spinOnce{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
   .refresh-indicator{
     display:flex;
     align-items:center;
@@ -517,6 +538,9 @@
     <div class="header-date" id="headerDate"></div>
   </div>
   <div class="header-right">
+    <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()" title="Fetch latest data from server">
+      <span class="spin">&#8635;</span> Refresh
+    </button>
     <div class="refresh-indicator">
       <div class="pulse"></div>
       <span id="refreshStatus">auto-refreshing</span>
@@ -812,6 +836,14 @@ async function refresh() {
   renderBriefing(results[0]);
   renderDebriefing(results[1]);
   document.getElementById('refreshStatus').textContent = 'refreshed ' + new Date().toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit'});
+}
+
+/* Manual refresh */
+async function manualRefresh() {
+  var btn = document.getElementById('refreshBtn');
+  btn.classList.add('refreshing');
+  await refresh();
+  btn.classList.remove('refreshing');
 }
 
 /* Init */
