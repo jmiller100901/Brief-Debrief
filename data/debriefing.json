@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-08",
+  "generatedAt": "2026-04-08T21:40:00-05:00",
+  "unresponded": [
+    {"from": "Ryan Beadle", "subject": "Landis Ridge - Tax Reimbursement", "needsResponse": "Asking finance team to verify calculations look correct and whether to request interest or leave it out of the reimbursement request.", "urgency": "medium", "receivedAt": "2:45 PM"},
+    {"from": "Michele Wheeler", "subject": "FW: A Six-Step Framework for AI Strategy", "needsResponse": "Forwarded AI strategy article with note 'Very timely article.' Likely FYI but may expect acknowledgment given Claude AI Demo today.", "urgency": "low", "receivedAt": "3:20 PM"}
+  ],
+  "actionableItems": [
+    {"item": "Regenerate CBRE docs without AON/CBRE references", "status": "done", "source": "John Stone email"},
+    {"item": "Send and rearrange LKN Crossing lender rankings by Lifeco/Single Source/Syndication", "status": "done", "source": "John Stone email / LKN Crossing thread"},
+    {"item": "Share land JV model with team for Ryan's seller meeting", "status": "done", "source": "JV sensitivity analysis thread"},
+    {"item": "Review Landis Ridge tax reimbursement and advise on interest", "status": "pending", "source": "Ryan Beadle email"},
+    {"item": "Research GPM Life / Robert Draper contact", "status": "pending", "source": "4890 Alpha Rd thread - meeting tomorrow"},
+    {"item": "Schedule LKN Crossing Debt Strategy meeting", "status": "done", "source": "Teams meeting created, all accepted"},
+    {"item": "Follow up on Danny Simmons callback", "status": "pending", "source": "John Stone / Michele Wheeler thread"}
+  ],
+  "todayRecap": "Heavy day. 3 meetings: Monthly Industrial Update Call (10:30 AM), Claude AI Demo (noon), and Finance Team lender survey for Tao BTS (2:30 PM). Major email activity around LKN Crossing debt outreach - lender list created with John Stone and Mark Butler, sent to leadership, then rearranged by category per John Stone's request. CBRE document cleanup completed and sent back. GPM Life lien release thread progressed with Clint Hennessey from GPM responding and Northmarq's R. Reese involved. JV sensitivity analysis shared for upcoming seller meeting. LKN Crossing Debt Strategy meeting scheduled and accepted by all invitees.",
+  "priorityStatus": [
+    {"item": "LKN Crossing debt outreach", "activity": "Lender list created, sent, rearranged per jstone request. Debt Strategy meeting scheduled.", "progress": "on-track"},
+    {"item": "CBRE document cleanup", "activity": "Completed. All CBRE/AON references removed and docs resent.", "progress": "done"},
+    {"item": "Tao BTS - PSA structure", "activity": "Discussed in 2:30 PM finance team meeting. Lender survey next step.", "progress": "active"},
+    {"item": "GPM Life lien release", "activity": "Clint Hennessey responded. Meeting set for tomorrow 1:30 PM.", "progress": "on-track"},
+    {"item": "Landis Ridge tax reimbursement", "activity": "Ryan Beadle awaiting input. No response yet.", "progress": "pending"}
+  ],
+  "tomorrowCalendar": [
+    {"time": "1:30 PM", "title": "4890 Alpha Rd - GPM Life Contact", "location": "JSConf1"}
+  ],
+  "openLoops": [
+    "LKN Crossing - awaiting leadership feedback on lender rankings after rearrangement",
+    "GPM Life - need to confirm Robert Draper contact info and prep for tomorrow's 1:30 PM meeting",
+    "CBRE cleanup - awaiting John Stone confirmation that final docs are acceptable",
+    "Tao BTS - lender survey list needs to be finalized post-meeting",
+    "Landis Ridge - Ryan Beadle waiting on interest decision from finance team",
+    "Danny Simmons - John Stone couldn't reach him, expecting callback"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-08",
+  "generatedAt": "2026-04-08T21:40:00-05:00",
+  "futures": [
+    {"name": "S&P 500", "value": "6,782.81", "change": "+166.25", "changePercent": "+2.51%", "direction": "up"},
+    {"name": "Dow Jones", "value": "47,909.92", "change": "+1,325.46", "changePercent": "+2.85%", "direction": "up"},
+    {"name": "Nasdaq", "value": "22,635.00", "change": "+616.80", "changePercent": "+2.80%", "direction": "up"},
+    {"name": "10Y Treasury", "value": "4.31%", "change": "-0.05", "changePercent": "", "direction": "down"},
+    {"name": "Crude Oil", "value": "$110.24", "change": "-3.18", "changePercent": "-2.80%", "direction": "down"},
+    {"name": "Gold", "value": "$3,285.40", "change": "+42.60", "changePercent": "+1.31%", "direction": "up"}
+  ],
+  "futuresLink": "https://finance.yahoo.com/markets/",
+  "news": [
+    {"title": "US-Iran Two-Week Ceasefire Brokered by Pakistan; Strait of Hormuz to Reopen", "source": "ABC News", "summary": "Iran agreed to reopen Hormuz under a tentative two-week ceasefire. Trump called it a 'double-sided ceasefire' with a workable 10-point peace plan.", "url": "https://abcnews.com/International/live-updates/iran-live-updates-casualties-reported-missile-strikes-israel/?id=131757074", "category": "world"},
+    {"title": "Stocks Soar as Markets Rally on Ceasefire News; Dow Surges 1,325 Points", "source": "Yahoo Finance", "summary": "All three major indexes surged over 2.5% after Trump suspended attacks on Iran, pausing the five-week conflict that disrupted global energy supplies.", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-surge-on-news-of-two-week-us-iran-ceasefire-224505516.html", "category": "markets"},
+    {"title": "Oil Prices Retreat from $110+ as Ceasefire Eases Strait of Hormuz Concerns", "source": "CNBC", "summary": "Brent crude pulled back sharply after surging past $110/barrel. Traders pricing in potential normalization of shipping through Hormuz.", "url": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html", "category": "markets"},
+    {"title": "Vance to Lead US Negotiating Team at First Round of Iran Talks in Islamabad", "source": "Times of Israel", "summary": "VP Vance heading to Pakistan Saturday to lead formal negotiations. Iran's Supreme National Security Council warned 'hands remain on the trigger.'", "url": "https://www.timesofisrael.com/liveblog-april-08-2026/", "category": "politics"},
+    {"title": "Pope Leo XIV Condemns Trump's Threat Against Iranian Civilian Infrastructure", "source": "CNN", "summary": "Pope called Trump's threat that 'a whole civilization will die tonight' if Iran doesn't deal 'truly unacceptable.'", "url": "https://edition.cnn.com/2026/04/08/us/5-things-to-know-for-april-8-us-iran-ceasefire-iran-linked-hackers-ice-shooting-hawaii-flood-threat-missing-american-woman", "category": "world"},
+    {"title": "Treasury Yields Ease to 4.31% as Geopolitical Tension Shifts", "source": "Financial Content", "summary": "10-year yield pulled back from 4.38% intraday high as ceasefire news reduced safe-haven demand. Volatility persists.", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-7-treasury-yields-climb-to-436-amid-geopolitical-uncertainty", "category": "markets"},
+    {"title": "Bitcoin Holds Above $71,900 Amid Market Uncertainty", "source": "Fortune", "summary": "BTC trading at $71,906 as crypto markets react to geopolitical developments and shifting risk appetite.", "url": "https://fortune.com/article/price-of-bitcoin-04-08-2026/", "category": "markets"}
+  ],
+  "calendar": [
+    {"time": "10:30 AM", "title": "Monthly Industrial Update Call", "location": "Teams / JSConf1 / Houston Conf / Front Conf", "attendees": ["gpearson", "mwheeler", "jstone", "mbutler", "rwatler", "mterry", "rbeadle", "swynne", "sclark"]},
+    {"time": "12:00 PM", "title": "Claude AI Demo", "location": "Teams / Front Conf Room", "attendees": ["mbutler", "mwheeler", "jstone", "gpearson", "rwatler", "rbeadle", "mterry"]},
+    {"time": "2:30 PM", "title": "Finance Team - Survey Lenders - Tao BTS - PSA Structure", "location": "Front Conf Room", "attendees": ["jstone", "mbutler"]}
+  ],
+  "weekAhead": [
+    {"day": "Thursday", "date": "Apr 9", "events": [
+      {"time": "1:30 PM", "title": "4890 Alpha Rd - GPM Life Contact"}
+    ]}
+  ],
+  "emailHighlights": [
+    {"subject": "Jackson Shaw / CBRE", "from": "John Stone", "summary": "Asked Jack to regenerate docs removing all CBRE/AON references and wiring info. Jack completed and sent back.", "action": "Verify John Stone confirmed final docs are acceptable", "urgency": "high"},
+    {"subject": "LKN Crossing - Debt Outreach", "from": "Jack Miller / John Stone", "summary": "Lender list sent to team. John Stone asked to sort by Lifeco / Single Source / Likely Syndication. Jack rearranged and resent.", "action": "Await feedback on lender rankings", "urgency": "high"},
+    {"subject": "4890 Alpha Rd - GPM Life Lien / DOT Release", "from": "John Stone / Clint Hennessey (GPM Life)", "summary": "Deed of trust shared with title team. GPM Life's Clint Hennessey responded. Northmarq's R. Reese also involved.", "action": "Prep for tomorrow's GPM Life Contact meeting", "urgency": "medium"},
+    {"subject": "JV Sensitivity Analysis", "from": "Jack Miller", "summary": "Shared land JV model with team. Max price $2.20/SF. Ryan meeting with seller next week.", "action": "Follow up with Ryan post-seller meeting", "urgency": "medium"},
+    {"subject": "Landis Ridge - Tax Reimbursement", "from": "Ryan Beadle", "summary": "Asking finance team to verify calculations and decide whether to request interest on the reimbursement.", "action": "Review and respond on interest question", "urgency": "medium"},
+    {"subject": "Simmons/Danny", "from": "John Stone", "summary": "Reached out to Danny but couldn't connect. Expecting callback. Michele Wheeler acknowledged.", "action": "Monitor for Danny callback", "urgency": "low"}
+  ],
+  "priorities": [
+    {"item": "LKN Crossing debt outreach", "status": "active", "relatedActivity": "Lender list sent and rearranged per John Stone's request. Meeting invites accepted by team."},
+    {"item": "CBRE document cleanup", "status": "done", "relatedActivity": "Completed and sent back to John Stone with all CBRE/AON references removed."},
+    {"item": "Tao BTS - PSA structure", "status": "active", "relatedActivity": "Finance team meeting at 2:30 PM today to discuss lender survey."},
+    {"item": "GPM Life lien release", "status": "active", "relatedActivity": "Clint Hennessey from GPM responded. Meeting tomorrow at 1:30 PM."},
+    {"item": "Landis Ridge tax reimbursement", "status": "pending", "relatedActivity": "Ryan Beadle awaiting finance team input on interest question."}
+  ],
+  "actionItems": [
+    "Prep for Claude AI Demo at noon - have examples ready",
+    "Review Landis Ridge tax reimbursement and respond to Ryan Beadle on interest question",
+    "Prep lender survey materials for 2:30 PM Tao BTS meeting",
+    "Research Robert Draper / GPM Life ahead of tomorrow's 1:30 PM meeting",
+    "Confirm CBRE doc cleanup is accepted by John Stone",
+    "Monitor for Danny Simmons callback"
+  ]
+}

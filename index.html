@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brief & Debrief</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#0B0F19;
+    --surface:#131825;
+    --surface-hover:#1A2035;
+    --border:#1E2A3A;
+    --border-light:#253347;
+    --text:#E8ECF1;
+    --text-secondary:#8899AA;
+    --text-tertiary:#556677;
+    --accent:#3B82F6;
+    --accent-dim:rgba(59,130,246,0.12);
+    --danger:#EF4444;
+    --danger-dim:rgba(239,68,68,0.12);
+    --warning:#F59E0B;
+    --warning-dim:rgba(245,158,11,0.12);
+    --success:#10B981;
+    --success-dim:rgba(16,185,129,0.12);
+    --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    --mono:'SF Mono','Cascadia Code','Fira Code',Consolas,monospace;
+    --radius:8px;
+  }
+  html{font-size:15px}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--font);
+    line-height:1.5;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* Header */
+  .header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 32px;
+    border-bottom:1px solid var(--border);
+    background:var(--surface);
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  .header-left{display:flex;align-items:center;gap:16px}
+  .logo{
+    font-size:1.5rem;
+    font-weight:700;
+    letter-spacing:-0.03em;
+    color:var(--text);
+  }
+  .logo span{color:var(--accent)}
+  .header-date{
+    font-size:0.8rem;
+    color:var(--text-secondary);
+    font-family:var(--mono);
+    background:var(--bg);
+    padding:4px 10px;
+    border-radius:4px;
+    border:1px solid var(--border);
+  }
+  .header-right{display:flex;align-items:center;gap:16px}
+  .refresh-indicator{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:0.75rem;
+    color:var(--text-tertiary);
+    font-family:var(--mono);
+  }
+  .pulse{
+    width:6px;height:6px;
+    border-radius:50%;
+    background:var(--success);
+    animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{opacity:1}
+    50%{opacity:0.3}
+  }
+
+  /* Tab navigation */
+  .section-nav{
+    position:sticky;
+    top:65px;
+    z-index:9;
+    background:var(--surface);
+    border-bottom:1px solid var(--border);
+  }
+  .nav-inner{
+    display:flex;
+    justify-content:center;
+    gap:0;
+  }
+  .nav-tab{
+    background:none;
+    border:none;
+    border-bottom:2px solid transparent;
+    padding:14px 36px;
+    font-family:var(--font);
+    font-size:0.9rem;
+    color:var(--text-tertiary);
+    cursor:pointer;
+    transition:color 0.15s ease,border-color 0.15s ease;
+    font-weight:500;
+  }
+  .nav-tab:hover{color:var(--text-secondary)}
+  .nav-tab.active{
+    color:var(--accent);
+    border-bottom-color:var(--accent);
+    font-weight:600;
+  }
+
+  /* Tab content sections */
+  .tab-section{display:none}
+  .tab-section.active{display:block}
+
+  /* Fade in */
+  @keyframes fadeIn{
+    from{opacity:0;transform:translateY(6px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+  .tab-section.active{animation:fadeIn 0.3s ease-out}
+
+  /* Content container */
+  .content{
+    max-width:1100px;
+    margin:0 auto;
+    padding:28px 32px;
+  }
+
+  /* Panel header */
+  .panel-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:24px;
+    padding-bottom:16px;
+    border-bottom:1px solid var(--border);
+  }
+  .panel-title{
+    font-size:1.1rem;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .panel-title .icon{font-size:1.2rem}
+  .panel-meta{
+    font-size:0.75rem;
+    color:var(--text-tertiary);
+    font-family:var(--mono);
+  }
+
+  /* Two column grid for briefing */
+  .two-col{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    margin-bottom:24px;
+  }
+  .col-full{grid-column:1/-1}
+
+  /* Sections */
+  .section{margin-bottom:24px}
+  .section-title{
+    font-size:0.7rem;
+    font-weight:600;
+    color:var(--text-secondary);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    margin-bottom:12px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .section-title .count{
+    background:var(--border);
+    color:var(--text-secondary);
+    padding:1px 6px;
+    border-radius:10px;
+    font-size:0.65rem;
+    font-family:var(--mono);
+  }
+  .section-title a{
+    color:var(--text-tertiary);
+    text-decoration:none;
+    font-weight:400;
+    margin-left:auto;
+    font-size:0.65rem;
+    transition:color 0.15s;
+  }
+  .section-title a:hover{color:var(--accent)}
+
+  /* Futures ticker strip */
+  .futures-strip{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:10px;
+    margin-bottom:24px;
+  }
+  .future-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:14px 16px;
+    text-align:center;
+    transition:border-color 0.15s;
+  }
+  .future-card:hover{border-color:var(--border-light)}
+  .future-name{
+    font-size:0.7rem;
+    color:var(--text-tertiary);
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    margin-bottom:6px;
+    font-family:var(--mono);
+  }
+  .future-value{
+    font-size:1.15rem;
+    font-weight:600;
+    font-family:var(--mono);
+    margin-bottom:4px;
+  }
+  .future-change{
+    font-size:0.75rem;
+    font-family:var(--mono);
+    font-weight:500;
+  }
+  .future-card.up .future-value{color:var(--success)}
+  .future-card.up .future-change{color:var(--success)}
+  .future-card.down .future-value{color:var(--danger)}
+  .future-card.down .future-change{color:var(--danger)}
+  .future-card.flat .future-value{color:var(--text-secondary)}
+  .future-card.flat .future-change{color:var(--text-secondary)}
+
+  /* News cards */
+  .news-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:14px 16px;
+    margin-bottom:8px;
+    transition:border-color 0.15s ease,background 0.15s ease;
+    display:block;
+    text-decoration:none;
+    color:inherit;
+  }
+  .news-card:hover{
+    border-color:var(--border-light);
+    background:var(--surface-hover);
+  }
+  .news-top{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .news-title{
+    font-weight:500;
+    font-size:0.9rem;
+    color:var(--text);
+    line-height:1.4;
+  }
+  .news-cat{
+    font-size:0.6rem;
+    font-weight:600;
+    padding:2px 7px;
+    border-radius:10px;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    white-space:nowrap;
+    font-family:var(--mono);
+    background:var(--accent-dim);
+    color:var(--accent);
+    flex-shrink:0;
+  }
+  .news-meta{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-top:6px;
+    font-size:0.75rem;
+    color:var(--text-tertiary);
+    font-family:var(--mono);
+  }
+  .news-summary{
+    font-size:0.82rem;
+    color:var(--text-secondary);
+    margin-top:6px;
+    line-height:1.45;
+  }
+
+  /* Cards */
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:14px 16px;
+    margin-bottom:8px;
+    transition:border-color 0.15s ease,background 0.15s ease;
+  }
+  .card:hover{
+    border-color:var(--border-light);
+    background:var(--surface-hover);
+  }
+  .card-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .card-subject{
+    font-weight:500;
+    font-size:0.9rem;
+    color:var(--text);
+    margin-bottom:2px;
+  }
+  .card-from{
+    font-size:0.78rem;
+    color:var(--text-secondary);
+    font-family:var(--mono);
+  }
+  .card-summary{
+    font-size:0.82rem;
+    color:var(--text-secondary);
+    margin-top:6px;
+    line-height:1.45;
+  }
+  .card-action{
+    font-size:0.8rem;
+    color:var(--accent);
+    margin-top:6px;
+    font-weight:500;
+  }
+
+  /* Urgency badges */
+  .badge{
+    font-size:0.65rem;
+    font-weight:600;
+    padding:2px 8px;
+    border-radius:10px;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    white-space:nowrap;
+    font-family:var(--mono);
+  }
+  .badge-high{background:var(--danger-dim);color:var(--danger)}
+  .badge-medium{background:var(--warning-dim);color:var(--warning)}
+  .badge-low{background:var(--accent-dim);color:var(--accent)}
+
+  /* Status badges */
+  .status{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-size:0.75rem;
+    font-family:var(--mono);
+  }
+  .status-dot{
+    width:6px;height:6px;
+    border-radius:50%;
+    flex-shrink:0;
+  }
+  .status-done .status-dot{background:var(--success)}
+  .status-done{color:var(--success)}
+  .status-pending .status-dot{background:var(--warning)}
+  .status-pending{color:var(--warning)}
+  .status-overdue .status-dot{background:var(--danger)}
+  .status-overdue{color:var(--danger)}
+  .status-active .status-dot{background:var(--accent)}
+  .status-active{color:var(--accent)}
+  .status-on-track .status-dot{background:var(--success)}
+  .status-on-track{color:var(--success)}
+
+  /* Calendar items */
+  .cal-item{
+    display:flex;
+    gap:12px;
+    padding:10px 0;
+    border-bottom:1px solid var(--border);
+  }
+  .cal-item:last-child{border-bottom:none}
+  .cal-time{
+    font-family:var(--mono);
+    font-size:0.78rem;
+    color:var(--accent);
+    min-width:80px;
+    font-weight:500;
+    flex-shrink:0;
+  }
+  .cal-details{flex:1}
+  .cal-title{font-size:0.85rem;font-weight:500;color:var(--text)}
+  .cal-location{font-size:0.75rem;color:var(--text-tertiary);margin-top:2px}
+  .cal-attendees{
+    font-size:0.7rem;
+    color:var(--text-tertiary);
+    margin-top:2px;
+    font-family:var(--mono);
+  }
+
+  /* Week ahead */
+  .week-day{margin-bottom:12px}
+  .week-day-label{
+    font-size:0.75rem;
+    font-weight:600;
+    color:var(--text-secondary);
+    margin-bottom:6px;
+    font-family:var(--mono);
+  }
+
+  /* Priority list */
+  .priority-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 14px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    margin-bottom:6px;
+  }
+  .priority-item:hover{border-color:var(--border-light)}
+  .priority-name{font-size:0.85rem;font-weight:500}
+  .priority-activity{font-size:0.75rem;color:var(--text-tertiary);margin-top:2px}
+
+  /* Action items */
+  .action-list{list-style:none}
+  .action-list li{
+    padding:8px 12px;
+    border-left:2px solid var(--accent);
+    margin-bottom:6px;
+    font-size:0.85rem;
+    background:var(--accent-dim);
+    border-radius:0 var(--radius) var(--radius) 0;
+  }
+
+  /* Recap text */
+  .recap{
+    font-size:0.85rem;
+    color:var(--text-secondary);
+    line-height:1.6;
+    padding:14px 16px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+  }
+
+  /* Open loops */
+  .loop-item{
+    padding:8px 12px;
+    border-left:2px solid var(--warning);
+    margin-bottom:6px;
+    font-size:0.85rem;
+    background:var(--warning-dim);
+    border-radius:0 var(--radius) var(--radius) 0;
+    color:var(--text);
+  }
+
+  /* Empty state */
+  .empty-state{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:80px 32px;
+    text-align:center;
+    color:var(--text-tertiary);
+  }
+  .empty-state .icon{font-size:2.5rem;margin-bottom:12px;opacity:0.5}
+  .empty-state .message{font-size:0.9rem;margin-bottom:4px}
+  .empty-state .sub{font-size:0.75rem;font-family:var(--mono)}
+
+  /* Scrollbar */
+  ::-webkit-scrollbar{width:6px}
+  ::-webkit-scrollbar-track{background:transparent}
+  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+  ::-webkit-scrollbar-thumb:hover{background:var(--border-light)}
+
+  /* Responsive */
+  @media(max-width:900px){
+    .two-col{grid-template-columns:1fr}
+    .futures-strip{grid-template-columns:repeat(3,1fr)}
+    .header{padding:16px 20px}
+    .content{padding:20px}
+    .nav-tab{padding:12px 20px;font-size:0.85rem}
+  }
+  @media(max-width:500px){
+    html{font-size:14px}
+    .header{flex-direction:column;gap:10px;align-items:flex-start}
+    .futures-strip{grid-template-columns:repeat(2,1fr)}
+    .nav-tab{padding:10px 16px;font-size:0.8rem}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">Brief <span>&</span> Debrief</div>
+    <div class="header-date" id="headerDate"></div>
+  </div>
+  <div class="header-right">
+    <div class="refresh-indicator">
+      <div class="pulse"></div>
+      <span id="refreshStatus">auto-refreshing</span>
+    </div>
+  </div>
+</div>
+
+<nav class="section-nav">
+  <div class="nav-inner">
+    <button class="nav-tab active" data-section="briefing">Morning Briefing</button>
+    <button class="nav-tab" data-section="debriefing">Evening Debrief</button>
+  </div>
+</nav>
+
+<section id="briefing" class="tab-section active">
+  <div class="content" id="briefingContent"></div>
+</section>
+
+<section id="debriefing" class="tab-section">
+  <div class="content" id="debriefingContent"></div>
+</section>
+
+<script>
+const REFRESH_INTERVAL = 60000;
+const BRIEFING_URL = 'data/briefing.json';
+const DEBRIEFING_URL = 'data/debriefing.json';
+
+/* Tab navigation */
+function initNav() {
+  var tabs = document.querySelectorAll('.nav-tab');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      tabs.forEach(function(t) { t.classList.remove('active'); });
+      tab.classList.add('active');
+      var target = tab.getAttribute('data-section');
+      document.querySelectorAll('.tab-section').forEach(function(s) { s.classList.remove('active'); });
+      var section = document.getElementById(target);
+      if (section) section.classList.add('active');
+    });
+  });
+}
+
+/* Utilities */
+function timeAgo(dateStr) {
+  if (!dateStr) return '';
+  var diff = Date.now() - new Date(dateStr).getTime();
+  var mins = Math.floor(diff / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + 'm ago';
+  var hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  return Math.floor(hrs / 24) + 'd ago';
+}
+
+function formatDate(d) {
+  var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+}
+
+function badge(urgency) {
+  if (!urgency) return '';
+  var cls = urgency === 'high' ? 'badge-high' : urgency === 'medium' ? 'badge-medium' : 'badge-low';
+  return '<span class="badge ' + cls + '">' + urgency + '</span>';
+}
+
+function statusBadge(status) {
+  if (!status) return '';
+  var s = status.toLowerCase().replace(/[\s-]/g, '-');
+  var cls = (s === 'done' || s === 'completed') ? 'status-done' :
+            s === 'pending' ? 'status-pending' :
+            s === 'overdue' ? 'status-overdue' :
+            s === 'active' ? 'status-active' :
+            s === 'on-track' ? 'status-on-track' : 'status-active';
+  return '<span class="status ' + cls + '"><span class="status-dot"></span>' + status + '</span>';
+}
+
+function esc(str) {
+  var d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+/* Render briefing */
+function renderBriefing(data) {
+  var el = document.getElementById('briefingContent');
+  if (!data) {
+    el.innerHTML = '<div class="empty-state"><div class="icon">&#9728;</div><div class="message">Awaiting morning briefing</div><div class="sub">Next briefing at 7:15 AM CT</div></div>';
+    return;
+  }
+
+  var html = '<div class="panel-header"><div class="panel-title"><span class="icon">&#9728;</span> Morning briefing</div><div class="panel-meta">' + timeAgo(data.generatedAt) + '</div></div>';
+
+  // Futures strip
+  if (data.futures && data.futures.length) {
+    html += '<div class="section"><div class="section-title">Market futures';
+    if (data.futuresLink) html += '<a href="' + data.futuresLink + '" target="_blank" rel="noopener">Yahoo Finance &#8599;</a>';
+    html += '</div><div class="futures-strip">';
+    data.futures.forEach(function(f) {
+      var dir = f.direction || 'flat';
+      html += '<div class="future-card ' + dir + '">' +
+        '<div class="future-name">' + esc(f.name) + '</div>' +
+        '<div class="future-value">' + esc(f.value) + '</div>' +
+        '<div class="future-change">' + esc(f.change) + (f.changePercent ? ' (' + esc(f.changePercent) + ')' : '') + '</div>' +
+        '</div>';
+    });
+    html += '</div></div>';
+  }
+
+  // News headlines
+  if (data.news && data.news.length) {
+    html += '<div class="section"><div class="section-title">Headlines <span class="count">' + data.news.length + '</span></div>';
+    data.news.forEach(function(n) {
+      html += '<a class="news-card" href="' + (n.url || '#') + '" target="_blank" rel="noopener">' +
+        '<div class="news-top"><div class="news-title">' + esc(n.title) + '</div>';
+      if (n.category) html += '<span class="news-cat">' + esc(n.category) + '</span>';
+      html += '</div>';
+      html += '<div class="news-meta"><span>' + esc(n.source || '') + '</span></div>';
+      if (n.summary) html += '<div class="news-summary">' + esc(n.summary) + '</div>';
+      html += '</a>';
+    });
+    html += '</div>';
+  }
+
+  // Two-column layout: calendar + emails on left, priorities + actions on right
+  html += '<div class="two-col">';
+
+  // Left column
+  html += '<div>';
+
+  // Today's calendar
+  if (data.calendar && data.calendar.length) {
+    html += '<div class="section"><div class="section-title">Today\'s calendar <span class="count">' + data.calendar.length + '</span></div>';
+    data.calendar.forEach(function(e) {
+      html += '<div class="cal-item"><div class="cal-time">' + esc(e.time) + '</div><div class="cal-details"><div class="cal-title">' + esc(e.title) + '</div>';
+      if (e.location) html += '<div class="cal-location">' + esc(e.location) + '</div>';
+      if (e.attendees && e.attendees.length) html += '<div class="cal-attendees">' + e.attendees.map(esc).join(', ') + '</div>';
+      html += '</div></div>';
+    });
+    html += '</div>';
+  }
+
+  // Week ahead
+  if (data.weekAhead && data.weekAhead.length) {
+    html += '<div class="section"><div class="section-title">Week ahead</div>';
+    data.weekAhead.forEach(function(day) {
+      html += '<div class="week-day"><div class="week-day-label">' + esc(day.day) + ' &middot; ' + esc(day.date) + '</div>';
+      day.events.forEach(function(e) {
+        html += '<div class="cal-item"><div class="cal-time">' + esc(e.time) + '</div><div class="cal-details"><div class="cal-title">' + esc(e.title) + '</div></div></div>';
+      });
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+
+  html += '</div>'; // end left column
+
+  // Right column
+  html += '<div>';
+
+  // Email highlights
+  if (data.emailHighlights && data.emailHighlights.length) {
+    html += '<div class="section"><div class="section-title">Email highlights <span class="count">' + data.emailHighlights.length + '</span></div>';
+    data.emailHighlights.forEach(function(e) {
+      html += '<div class="card"><div class="card-row"><div><div class="card-subject">' + esc(e.subject) + '</div><div class="card-from">' + esc(e.from) + '</div></div>' + badge(e.urgency) + '</div>';
+      if (e.summary) html += '<div class="card-summary">' + esc(e.summary) + '</div>';
+      if (e.action) html += '<div class="card-action">&#8594; ' + esc(e.action) + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+
+  // Priorities
+  if (data.priorities && data.priorities.length) {
+    html += '<div class="section"><div class="section-title">Priority check-in</div>';
+    data.priorities.forEach(function(p) {
+      html += '<div class="priority-item"><div><div class="priority-name">' + esc(p.item) + '</div>';
+      if (p.relatedActivity) html += '<div class="priority-activity">' + esc(p.relatedActivity) + '</div>';
+      html += '</div>' + statusBadge(p.status) + '</div>';
+    });
+    html += '</div>';
+  }
+
+  html += '</div>'; // end right column
+  html += '</div>'; // end two-col
+
+  // Action items (full width)
+  if (data.actionItems && data.actionItems.length) {
+    html += '<div class="section"><div class="section-title">Action items <span class="count">' + data.actionItems.length + '</span></div><ul class="action-list">';
+    data.actionItems.forEach(function(a) { html += '<li>' + esc(a) + '</li>'; });
+    html += '</ul></div>';
+  }
+
+  el.innerHTML = html;
+}
+
+/* Render debriefing */
+function renderDebriefing(data) {
+  var el = document.getElementById('debriefingContent');
+  if (!data) {
+    el.innerHTML = '<div class="empty-state"><div class="icon">&#9789;</div><div class="message">Awaiting evening debrief</div><div class="sub">Next debrief at 4:45 PM CT</div></div>';
+    return;
+  }
+
+  var html = '<div class="panel-header"><div class="panel-title"><span class="icon">&#9789;</span> Evening debrief</div><div class="panel-meta">' + timeAgo(data.generatedAt) + '</div></div>';
+
+  // Two-column: unresponded + actionable on left, recap + priorities on right
+  html += '<div class="two-col">';
+
+  // Left column
+  html += '<div>';
+
+  // Unresponded emails
+  if (data.unresponded && data.unresponded.length) {
+    html += '<div class="section"><div class="section-title">Unresponded emails <span class="count">' + data.unresponded.length + '</span></div>';
+    data.unresponded.forEach(function(e) {
+      html += '<div class="card"><div class="card-row"><div><div class="card-subject">' + esc(e.subject) + '</div><div class="card-from">' + esc(e.from) + (e.receivedAt ? ' &middot; ' + esc(e.receivedAt) : '') + '</div></div>' + badge(e.urgency) + '</div>';
+      if (e.needsResponse) html += '<div class="card-summary">' + esc(e.needsResponse) + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+
+  // Actionable items
+  if (data.actionableItems && data.actionableItems.length) {
+    html += '<div class="section"><div class="section-title">Actionable items <span class="count">' + data.actionableItems.length + '</span></div>';
+    data.actionableItems.forEach(function(a) {
+      html += '<div class="card"><div class="card-row"><div><div class="card-subject">' + esc(a.item) + '</div>';
+      if (a.source) html += '<div class="card-from">' + esc(a.source) + '</div>';
+      html += '</div>' + statusBadge(a.status) + '</div></div>';
+    });
+    html += '</div>';
+  }
+
+  html += '</div>'; // end left
+
+  // Right column
+  html += '<div>';
+
+  // Today's recap
+  if (data.todayRecap) {
+    html += '<div class="section"><div class="section-title">Today\'s recap</div><div class="recap">' + esc(data.todayRecap) + '</div></div>';
+  }
+
+  // Priority status
+  if (data.priorityStatus && data.priorityStatus.length) {
+    html += '<div class="section"><div class="section-title">Priority status</div>';
+    data.priorityStatus.forEach(function(p) {
+      html += '<div class="priority-item"><div><div class="priority-name">' + esc(p.item) + '</div>';
+      if (p.activity) html += '<div class="priority-activity">' + esc(p.activity) + '</div>';
+      html += '</div>' + statusBadge(p.progress) + '</div>';
+    });
+    html += '</div>';
+  }
+
+  // Tomorrow's calendar
+  if (data.tomorrowCalendar && data.tomorrowCalendar.length) {
+    html += '<div class="section"><div class="section-title">Tomorrow\'s calendar <span class="count">' + data.tomorrowCalendar.length + '</span></div>';
+    data.tomorrowCalendar.forEach(function(e) {
+      html += '<div class="cal-item"><div class="cal-time">' + esc(e.time) + '</div><div class="cal-details"><div class="cal-title">' + esc(e.title) + '</div>';
+      if (e.location) html += '<div class="cal-location">' + esc(e.location) + '</div>';
+      html += '</div></div>';
+    });
+    html += '</div>';
+  }
+
+  html += '</div>'; // end right
+  html += '</div>'; // end two-col
+
+  // Open loops (full width)
+  if (data.openLoops && data.openLoops.length) {
+    html += '<div class="section"><div class="section-title">Open loops <span class="count">' + data.openLoops.length + '</span></div>';
+    data.openLoops.forEach(function(l) { html += '<div class="loop-item">' + esc(l) + '</div>'; });
+    html += '</div>';
+  }
+
+  el.innerHTML = html;
+}
+
+/* Data loading */
+async function fetchJSON(url) {
+  try {
+    var res = await fetch(url + '?t=' + Date.now());
+    if (!res.ok) return null;
+    return await res.json();
+  } catch(e) { return null; }
+}
+
+async function refresh() {
+  var results = await Promise.all([fetchJSON(BRIEFING_URL), fetchJSON(DEBRIEFING_URL)]);
+  renderBriefing(results[0]);
+  renderDebriefing(results[1]);
+  document.getElementById('refreshStatus').textContent = 'refreshed ' + new Date().toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit'});
+}
+
+/* Init */
+document.getElementById('headerDate').textContent = formatDate(new Date());
+initNav();
+refresh();
+setInterval(refresh, REFRESH_INTERVAL);
+</script>
+</body>
+</html>
