@@ -214,7 +214,8 @@
     text-align:center;
     transition:border-color 0.15s;
   }
-  .future-card:hover{border-color:var(--border-light)}
+  .future-card:hover{border-color:var(--border-light);text-decoration:none}
+  a.future-card{text-decoration:none;color:inherit}
   .future-name{
     font-size:0.7rem;
     color:var(--text-tertiary);
@@ -608,11 +609,13 @@ function renderBriefing(data) {
     html += '</div><div class="futures-strip">';
     data.futures.forEach(function(f) {
       var dir = f.direction || 'flat';
-      html += '<div class="future-card ' + dir + '">' +
+      var tag = f.url ? 'a' : 'div';
+      var linkAttr = f.url ? ' href="' + f.url + '" target="_blank" rel="noopener"' : '';
+      html += '<' + tag + ' class="future-card ' + dir + '"' + linkAttr + '>' +
         '<div class="future-name">' + esc(f.name) + '</div>' +
         '<div class="future-value">' + esc(f.value) + '</div>' +
         '<div class="future-change">' + esc(f.change) + (f.changePercent ? ' (' + esc(f.changePercent) + ')' : '') + '</div>' +
-        '</div>';
+        '</' + tag + '>';
     });
     html += '</div></div>';
   }

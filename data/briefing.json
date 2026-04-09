@@ -2,12 +2,12 @@
   "date": "2026-04-08",
   "generatedAt": "2026-04-08T21:40:00-05:00",
   "futures": [
-    {"name": "S&P 500", "value": "6,782.81", "change": "+166.25", "changePercent": "+2.51%", "direction": "up"},
-    {"name": "Dow Jones", "value": "47,909.92", "change": "+1,325.46", "changePercent": "+2.85%", "direction": "up"},
-    {"name": "Nasdaq", "value": "22,635.00", "change": "+616.80", "changePercent": "+2.80%", "direction": "up"},
-    {"name": "10Y Treasury", "value": "4.31%", "change": "-0.05", "changePercent": "", "direction": "down"},
-    {"name": "Crude Oil", "value": "$110.24", "change": "-3.18", "changePercent": "-2.80%", "direction": "down"},
-    {"name": "Gold", "value": "$3,285.40", "change": "+42.60", "changePercent": "+1.31%", "direction": "up"}
+    {"name": "S&P 500", "value": "6,782.81", "change": "+166.25", "changePercent": "+2.51%", "direction": "up", "url": "https://finance.yahoo.com/quote/%5EGSPC/"},
+    {"name": "Dow Jones", "value": "47,909.92", "change": "+1,325.46", "changePercent": "+2.85%", "direction": "up", "url": "https://finance.yahoo.com/quote/%5EDJI/"},
+    {"name": "Nasdaq", "value": "22,635.00", "change": "+616.80", "changePercent": "+2.80%", "direction": "up", "url": "https://finance.yahoo.com/quote/%5EIXIC/"},
+    {"name": "10Y Treasury", "value": "4.31%", "change": "-0.05", "changePercent": "", "direction": "down", "url": "https://www.cnbc.com/quotes/US10Y"},
+    {"name": "Crude Oil", "value": "$110.24", "change": "-3.18", "changePercent": "-2.80%", "direction": "down", "url": "https://finance.yahoo.com/quote/CL%3DF/"},
+    {"name": "Gold", "value": "$3,285.40", "change": "+42.60", "changePercent": "+1.31%", "direction": "up", "url": "https://finance.yahoo.com/quote/GC%3DF/"}
   ],
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
