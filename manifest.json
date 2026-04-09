@@ -1,0 +1,22 @@
+{
+  "name": "Brief & Debrief",
+  "short_name": "B&D",
+  "description": "Daily morning briefing & evening debriefing dashboard",
+  "start_url": "/Brief-Debrief/",
+  "scope": "/Brief-Debrief/",
+  "display": "standalone",
+  "background_color": "#0B0F19",
+  "theme_color": "#0B0F19",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
