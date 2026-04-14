@@ -1,112 +1,112 @@
 {
-  "date": "2026-04-13",
-  "generatedAt": "2026-04-13T16:44:19.080Z",
+  "date": "2026-04-14",
+  "generatedAt": "2026-04-14T16:19:59.104Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "6,875.75",
-      "change": "+20.50",
-      "changePercent": "+0.30%",
+      "value": "6,992.75",
+      "change": "+70.00",
+      "changePercent": "+1.01%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "48,063.00",
-      "change": "-66.00",
-      "changePercent": "-0.14%",
-      "direction": "down",
+      "value": "48,721.00",
+      "change": "+296.00",
+      "changePercent": "+0.61%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "25,381.75",
-      "change": "+100.50",
-      "changePercent": "+0.40%",
+      "value": "25,890.00",
+      "change": "+346.50",
+      "changePercent": "+1.36%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.32%",
-      "change": "+0.00",
-      "changePercent": "+0.00%",
-      "direction": "up",
+      "value": "4.27%",
+      "change": "-0.02",
+      "changePercent": "-0.54%",
+      "direction": "down",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$100.88",
-      "change": "+4.31",
-      "changePercent": "+4.46%",
-      "direction": "up",
+      "value": "$92.57",
+      "change": "-6.51",
+      "changePercent": "-6.57%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,756.10",
-      "change": "-31.30",
-      "changePercent": "-0.65%",
-      "direction": "down",
+      "value": "$4,834.80",
+      "change": "+92.40",
+      "changePercent": "+1.95%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
   ],
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Stock Market Today: Oil Jumps Back Above $100, Dow Slips on Hormuz Blockade — Live Updates - WSJ",
-      "source": "WSJ",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeS1vaW9MN2dqLTR0bDZud0ZJMDlKaXFPVXBkRXh6LWRCSmtUS0xjOW8wbE5DSDZBcjA1VFJiT2xnQTJsY08xTzRyM2Ezblg1c0I2Y3l1WWVXQnlzVW5LbVNLVXlhNVBCU1E0TVU3OE9BcldzT28yNVBFeUE1X2hRY3dOUkdGVGc?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Goldman bond traders take shine off bumper quarter - Financial Times",
-      "source": "Financial Times",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSURRNEFGaGlaci0tQzVmOVIwR0M1ZjYwWUNYVXlINFJvaW1aelA5OUUxTEhyTi1CNlI3cXdLX1hDZ0dvZ3JQNUJQUmNLYzUtZ2dYRVEtZzNVYXV4anRUN2c4MjFha2t2U2ZLdlNGRkoxUFBxOFI5UWM2MDVQbllIVWdxdkU?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "US Existing-Home Sales Fall to Nine-Month Low as Prices Rise - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeE9PR1ZpV3lwQ3ZMaUhUWEQ5Z0o1X2VBZ2NoOWIzX1BuUnhHcFBiM1hpbm5KLW9BNHlFcGs1Qk01YkxWT182TjZLX201RWRqcXcxNXByTWFJRVlFTnJZTlhKRG9QMHNvaWJrMVBsSHdZX3R2bkpZVVNDRWZySVF3TUxENDBpZDhWYTRHNjVaUXBYcFFmcjB2a3lwQmcxOFo4TDZlN3lUdFBvYW42ODdPcW1hZXE?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Iran war’s global energy crisis sharpens China’s advantage in clean tech - AP News",
-      "source": "AP News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbDl6ZlpSNnE3NVdDRmFrOEo3am5rZWkxNTJaOHF1ZEVpa0JPRTdZVzVIWEUtZVd4XzBXS1h5NWpWbTZGZEpaTjVXMFdxZ3A1VXJxbGlSNVFIVVJGSW5xRXJreHBVRUhsb19XLWVrZ1d5MVBlci1EWFpGalREdkQ0RVVBZ2JXc3Z4czhSeWMybm5lVlgtbUdNMXBjdU1GYm8?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers. - The New York Times",
+      "title": "Middle East War Will Slow Global Economic Growth, I.M.F. Warns - The New York Times",
       "source": "The New York Times",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWVpS0t2MnFOdkNKNXlnVUJsWU83SVo2OFdOT05VTkUwQUc2bDNfSWt4Ql9pXzEyaXI1Y21WMWtRRXlwQWE0UkVweENkZVM4YjBRUC04YVNhd0FPSVRlNFFVdDdyTUZJbm9hNUhobmdObmd6cHVYSHplcHZWQnMwOEZKUWVMWFBrQkU1OURPaGtsYkxYRm1Udw?oc=5",
-      "category": "world"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjBianhrWTZYOHNCU2hPVzkzUGktMmRQMEhnalNZRVdIekI3MGZwYmpnNTNMSmhacEc4MnlPbHVPVk9tY08xekxUS0M2OXRtSWpELU1JQjJoZzRUOGtkR0lUNTlqdHlsVWNNOGRRM0M4emhCclhtYXpCZjZwR1NXQW5Ydw?oc=5",
+      "category": "business"
     },
     {
-      "title": "Trump post appearing to depict himself as Jesus sparks backlash from religious right - The Washington Post",
-      "source": "The Washington Post",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLS00X0haQVRMYld6RUlLQWhvNFI1S1pWbDd2ZEVwSWRWakpMUDd5NkE5VGZJeFduaTNhUXc4MGFvNm1ibTFNSDBFQnRmQk94Mk96MEJGeEdSbXotWmRycVNhX0JiYkxvNUUxSFZOTURQNmUwZWVZX0FjOExiYlFSRUxyTW9CWkh2UG1FWmlOWVc?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "US judge dismisses Trump defamation suit against Wall Street Journal - BBC",
-      "source": "BBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwS0Y1MzVmdUpnZXZWQ0NaRHpKUmwzNWgxUmdrQVE4aWN6TmFPZGhub0xLNTM2MWZ3R2FwdU1OQjl6OW1oNng5NFN0NzJtZVJUTnFibUtGYVk1QQ?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "Kremlin says it hopes for pragmatic ties with new Hungarian leadership after Orban defeat - Reuters",
+      "title": "JPMorgan profit beats estimates on record trading haul, strong dealmaking - Reuters",
       "source": "Reuters",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUzZsVXJJZ01xSC1uSTdFeGY0b3d0QU1xc1FEZHhRTXJMUEpwT0VrSW9Bb0VIU0VtRlJid2V0eGFPemZnLThHMWdCeGtwc3BYbEl4UmhJbXJhZ1JOLW1yN1RCRzZVbGdHdGI2bEF0N2xaNjVnUXZxQm53MmZBZW91UHdiZWJwTDNPZWxwUzhwdERzSmxPZWNpTUNSMmVmanR3WHhRb1B4MzFqc2xUSU5BazVWWUxMM2VYeHNVcUs1V0hmaUZvNnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlNtc0xrd2hPNWl5aXZxN28xTTNidDlIb0VKSnhsZnVxZE9iNG1KS29DenpUOHlTS3BUN21KWGNZM1YwV0JlQ3BfaGNBbmdwQ2xqY2FRMkRxakNVYTFkQURjUndoNm9Mei1aTVh2YXREMEotcHVSQkUzanpoUGVNd2RiLUtBTnlFQ0tRMXRfNUQ5WG0wWnNTd0loeWluZDZnZWNYcG5HSUx0QUlFSS1qSnpETkc?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Man charged in arson attack on Sam Altman’s house had AI CEO kill list, prosecutors say - Fortune",
+      "source": "Fortune",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRmtQSWRWdTRZTURRU01hX1RSdENmTU1FbXdycUt5WDJmbVo3WExWYmFGRnlZU2hzZXdDZnBBa0huLVZoaFp3eHBEeVJwOTE0NWxISWZPMGsxTkNCaUpicUpVN2t1SVhHLXpPemlEMjRwTm1CVFotOTROSGE3VHVRclFOVENqLWppOWJPRnB2Z3lTVEFpczI4cERiVTRGNTdDaTJqQkZXTldZZw?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "US wholesale prices surged 4% last month after the war in Iran sent energy prices soaring - AP News",
+      "source": "AP News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMExiWDQyWGpOQ1VHbUNFTnoydVlOOF8zeHBpTU1wNWc4QUo4WThodzRIeElGVk83M0FibmwzTlktT2txY2JpcnpsOUxJNDlSQ0Y1RHpISGFPSHNFWFpLdThQWFM1VWt0QzdxWHF0WUQ2MWJUNlFQNUJwSEtBNHdNSjNwUnBxRWljdHRoZWFYbVJSVzZXVW51d1hUQWhxYXc?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "How geography powers Iran’s grip on the Strait of Hormuz, despite U.S. blockade - The Washington Post",
+      "source": "The Washington Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVk0wQlc1b2lCSFhPR3J6eGtNcEpOa1JEUDJac1VDZ3ZKLUtLZHYtWl9Zc0x4Y2RYQjFQVkdTalNHTGxRdUxIWEM3aUY5Yl81OFQ0Rkxmc3lJQjA5UnIzTm9aWmxGczhoa2NXWUdaUXBpQ3h2YUJHTWJYeWxwOGtDZHFDZnpVdDhRUEZrNVJB?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "JD Vance defends Trump amid spat with Pope Leo: ‘Stick to matters of morality’ - The Guardian",
+      "source": "The Guardian",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGFjX1RuTjAtM0dzd2tGRTNWTlpqZ0hDUG5GMXBFYTFYeWlQX0RqVkRlV0hXQ3J6SVNaRTJIdENtWGlsc2pCVjQzQl95SzVsSXdRc0w4UGhHZTNPTG1iaUs3SUN5SDRXa2VINEFDMVZfaEhCRzY4WUVTS215ZXdQUFhTOWNha0RWc1ZxYg?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "2 Swalwell accusers discuss his downfall and the fear of coming forward: \"He thought he was untouchable\" - CBS News",
+      "source": "CBS News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXdLWmdoMUJjc2c5Q1JMR0lWNmozX1I5RGw2dF9FTEg3Q1RNN29ZNF9vYzlpWndLSUZXTjZsS0E4Rmw2OXFHRk9Jam14R1NMRy1FTXNmQzJrNUZaRkhFaDhzakpYV29JZWdmMnE1WWJRbF94MjFwalRQS3NoMTVzand6MGVmbUVLV21vN204Yk5LNk5HXzViUnhhRDg4QdIBowFBVV95cUxPLTA0T2NZa2dHV1ZkVGs0TG1Od1c2S1A5ckptVXJHUU1GLWc4NGhzTDFMZTFqd29RVlRZWU4wd2FZaDBNdkNnNHhnZk1kcFdSd25uU005eWxmNkh1UU54QW5xWl9XX3FCLVowMnU0dk5OakNqbnMza01QSzBFQ2dpMER4b0liN0l2T0ppa3pVd0hRMTV3MzFFSHFVQVBSZVRvcnRN?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Fresh Iran talks could begin this week as US continues blockade on ports - Fox News",
+      "source": "Fox News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwRlMwdTNlQ0JQVFJtWWNLMy01LUFIVlp1UV81N0I0MnZKRzI1Z2RKUU5pYVBrdzF5UW1Id1JjNlFNUUszS3JBX0k4aEhRdXVYX3RqbEZuTklJckhsNmszUFN0UE00cUJUa0QtcDdIRXJtZUhxbkUtN0d5WGhEZ9IBgwFBVV95cUxOcWJ1S041LWtNanlXUjRubnNBeDdOcVpwQURkcmpMSzd1Ml84d2s0SEVlMk4wTkJZTnhWQjBZQkhScEJBNE9QM3NmQWttR3JOeFJiRFhpTDgwRHZZSTJ6OTBzWnVSSGZaVy02WHBpRnQzd0VSelJTUWNNcXdPalNqNHRJbw?oc=5",
       "category": "world"
     }
   ],
