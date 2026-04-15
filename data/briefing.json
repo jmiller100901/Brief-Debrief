@@ -1,52 +1,52 @@
 {
-  "date": "2026-04-14",
-  "generatedAt": "2026-04-14T16:19:59.104Z",
+  "date": "2026-04-15",
+  "generatedAt": "2026-04-15T16:12:54.434Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "6,992.75",
-      "change": "+70.00",
-      "changePercent": "+1.01%",
+      "value": "7,032.25",
+      "change": "+27.50",
+      "changePercent": "+0.39%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "48,721.00",
-      "change": "+296.00",
-      "changePercent": "+0.61%",
-      "direction": "up",
+      "value": "48,495.00",
+      "change": "-260.00",
+      "changePercent": "-0.53%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "25,890.00",
-      "change": "+346.50",
-      "changePercent": "+1.36%",
+      "value": "26,197.00",
+      "change": "+200.25",
+      "changePercent": "+0.77%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.27%",
-      "change": "-0.02",
-      "changePercent": "-0.54%",
-      "direction": "down",
+      "value": "4.29%",
+      "change": "+0.03",
+      "changePercent": "+0.73%",
+      "direction": "up",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$92.57",
-      "change": "-6.51",
-      "changePercent": "-6.57%",
-      "direction": "down",
+      "value": "$92.46",
+      "change": "+1.18",
+      "changePercent": "+1.29%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,834.80",
-      "change": "+92.40",
-      "changePercent": "+1.95%",
+      "value": "$4,827.40",
+      "change": "+2.40",
+      "changePercent": "+0.05%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
@@ -54,59 +54,59 @@
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Middle East War Will Slow Global Economic Growth, I.M.F. Warns - The New York Times",
-      "source": "The New York Times",
+      "title": "Trump threatens to fire Fed chair Powell if he doesn't leave in May - BBC",
+      "source": "BBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjBianhrWTZYOHNCU2hPVzkzUGktMmRQMEhnalNZRVdIekI3MGZwYmpnNTNMSmhacEc4MnlPbHVPVk9tY08xekxUS0M2OXRtSWpELU1JQjJoZzRUOGtkR0lUNTlqdHlsVWNNOGRRM0M4emhCclhtYXpCZjZwR1NXQW5Ydw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PVFdxWndkOENXei1JUHVTVzUtTV9kdE11U2lMaTJ3Z1dub0o1N0tUU1BwSXdBdW1tNW1jTUk3a19mWlBBaVg0bnZrZzBWQl8wVkpIb3NGZTY0QQ?oc=5",
       "category": "business"
     },
     {
-      "title": "JPMorgan profit beats estimates on record trading haul, strong dealmaking - Reuters",
-      "source": "Reuters",
+      "title": "Struggling shoe retailer Allbirds makes bizarre pivot from shoes to AI, stock explodes more than 300% - CNBC",
+      "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlNtc0xrd2hPNWl5aXZxN28xTTNidDlIb0VKSnhsZnVxZE9iNG1KS29DenpUOHlTS3BUN21KWGNZM1YwV0JlQ3BfaGNBbmdwQ2xqY2FRMkRxakNVYTFkQURjUndoNm9Mei1aTVh2YXREMEotcHVSQkUzanpoUGVNd2RiLUtBTnlFQ0tRMXRfNUQ5WG0wWnNTd0loeWluZDZnZWNYcG5HSUx0QUlFSS1qSnpETkc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ncm9tc1pXanZtZ054V29ibmplRGpYdnU1Q0FJTExpS0FIQWdKbWRPYjlYU3QzSEJYV2diOVZLOG9KNEFQM09nUGthclJiXzBVMXBUbDNtZUQtUlBocWxRUHdtaWdoVDhwTzRJX0I5SjltT2PSAXhBVV95cUxQV2QxTGNFQzQ1ZE5jZThvZGl1MzJzUE4yczJxLUU5akFBOExiNzIwUnVDTTZ5M2RNY3BiZmVQWmhSZ2hGRktZNmpMbW5NeDRjTldVZVd1Z2txak13cFFldjZhdnd6d205NkpEdTZZbElsTHkxUDY0T2Q?oc=5",
       "category": "business"
     },
     {
-      "title": "Man charged in arson attack on Sam Altman’s house had AI CEO kill list, prosecutors say - Fortune",
-      "source": "Fortune",
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures hit pause near records amid hopes for US-Iran talks - Yahoo Finance",
+      "source": "Yahoo Finance",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRmtQSWRWdTRZTURRU01hX1RSdENmTU1FbXdycUt5WDJmbVo3WExWYmFGRnlZU2hzZXdDZnBBa0huLVZoaFp3eHBEeVJwOTE0NWxISWZPMGsxTkNCaUpicUpVN2t1SVhHLXpPemlEMjRwTm1CVFotOTROSGE3VHVRclFOVENqLWppOWJPRnB2Z3lTVEFpczI4cERiVTRGNTdDaTJqQkZXTldZZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORGdrMDlBRWg1REZSb244aHNzV2Y0Wk9Dc3REOVNERTFyQXpPQnZORENWU1RhMWcyMENROUFnMjdEYzg3cC03WTJKR0JUNHpxYW5aUVdhX2M5SE5nWnZ2cm4zRTdtbXBIUzEtTjNRM3JJeTB1ZENycXFzQTJVc1Z3UTY4OWJlSDdCMXFCZDQ2V2dZc2wzaGtxWllGTVhJaVBud2hZd0NZV19pdGFqR0owcHB3VVBOU3o4ajJBZy1WTTBfcFVWN2I2MzNGMVdsNHU1UEFIYlBJbkJGODBCd3plQ2hiNlI5dDR0bmdiMDFtZ3hsQQ?oc=5",
       "category": "business"
     },
     {
-      "title": "US wholesale prices surged 4% last month after the war in Iran sent energy prices soaring - AP News",
-      "source": "AP News",
+      "title": "Bank of America, Morgan Stanley Report After Mixed Start to Bank Earnings - Barron's",
+      "source": "Barron's",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMExiWDQyWGpOQ1VHbUNFTnoydVlOOF8zeHBpTU1wNWc4QUo4WThodzRIeElGVk83M0FibmwzTlktT2txY2JpcnpsOUxJNDlSQ0Y1RHpISGFPSHNFWFpLdThQWFM1VWt0QzdxWHF0WUQ2MWJUNlFQNUJwSEtBNHdNSjNwUnBxRWljdHRoZWFYbVJSVzZXVW51d1hUQWhxYXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRXZFOGo4cjFVU1k0a0J0SWY2Z1Iwbkk2T3BrVU9FLUdxbDVoX1g4WEltbGF4QmhCSjNRLVhOb1NkbWFEeWdEVHhXWXVWV042SXhvTWUycVg2eUp4ZGJ3TDUweEV4TFh3c2JLUG5tbXI2bG9tbjV2RWp1OF96TEJWc3lIZE16RnpJLW9lX3NPQ1JjV3BqTnRV?oc=5",
       "category": "business"
     },
     {
-      "title": "How geography powers Iran’s grip on the Strait of Hormuz, despite U.S. blockade - The Washington Post",
-      "source": "The Washington Post",
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures hit pause near records amid hopes for US-Iran talks - Yahoo Finance",
+      "source": "Yahoo Finance",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVk0wQlc1b2lCSFhPR3J6eGtNcEpOa1JEUDJac1VDZ3ZKLUtLZHYtWl9Zc0x4Y2RYQjFQVkdTalNHTGxRdUxIWEM3aUY5Yl81OFQ0Rkxmc3lJQjA5UnIzTm9aWmxGczhoa2NXWUdaUXBpQ3h2YUJHTWJYeWxwOGtDZHFDZnpVdDhRUEZrNVJB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORGdrMDlBRWg1REZSb244aHNzV2Y0Wk9Dc3REOVNERTFyQXpPQnZORENWU1RhMWcyMENROUFnMjdEYzg3cC03WTJKR0JUNHpxYW5aUVdhX2M5SE5nWnZ2cm4zRTdtbXBIUzEtTjNRM3JJeTB1ZENycXFzQTJVc1Z3UTY4OWJlSDdCMXFCZDQ2V2dZc2wzaGtxWllGTVhJaVBud2hZd0NZV19pdGFqR0owcHB3VVBOU3o4ajJBZy1WTTBfcFVWN2I2MzNGMVdsNHU1UEFIYlBJbkJGODBCd3plQ2hiNlI5dDR0bmdiMDFtZ3hsQQ?oc=5",
+      "category": "markets"
+    },
+    {
+      "title": "Live updates: US says blockade of Iranian ports ‘fully implemented’ as Trump hints at further peace talks - CNN",
+      "source": "CNN",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?oc=5",
       "category": "world"
     },
     {
-      "title": "JD Vance defends Trump amid spat with Pope Leo: ‘Stick to matters of morality’ - The Guardian",
-      "source": "The Guardian",
+      "title": "Tax season was supposed to bring big refunds. So far they're less than expected - NPR",
+      "source": "NPR",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGFjX1RuTjAtM0dzd2tGRTNWTlpqZ0hDUG5GMXBFYTFYeWlQX0RqVkRlV0hXQ3J6SVNaRTJIdENtWGlsc2pCVjQzQl95SzVsSXdRc0w4UGhHZTNPTG1iaUs3SUN5SDRXa2VINEFDMVZfaEhCRzY4WUVTS215ZXdQUFhTOWNha0RWc1ZxYg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0ExdEdYLXI2RUxNZmVfemRuUHVOUDNFRDNaVktEc3hwa3JSa3RXVDhLZngxQzJfSzF3Q3ZtY2ZaY1JIWnBGU2dMeTZhSTlTekozU1FLcVU2emVMNUs5X1hMVy1zRmM4YXRONUFDNHBNUmtZYjk0TldqeThKM2pCZQ?oc=5",
       "category": "world"
     },
     {
-      "title": "2 Swalwell accusers discuss his downfall and the fear of coming forward: \"He thought he was untouchable\" - CBS News",
-      "source": "CBS News",
+      "title": "Trump takes aim at Pope Leo again, days after calling him 'weak on crime' - CNBC",
+      "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXdLWmdoMUJjc2c5Q1JMR0lWNmozX1I5RGw2dF9FTEg3Q1RNN29ZNF9vYzlpWndLSUZXTjZsS0E4Rmw2OXFHRk9Jam14R1NMRy1FTXNmQzJrNUZaRkhFaDhzakpYV29JZWdmMnE1WWJRbF94MjFwalRQS3NoMTVzand6MGVmbUVLV21vN204Yk5LNk5HXzViUnhhRDg4QdIBowFBVV95cUxPLTA0T2NZa2dHV1ZkVGs0TG1Od1c2S1A5ckptVXJHUU1GLWc4NGhzTDFMZTFqd29RVlRZWU4wd2FZaDBNdkNnNHhnZk1kcFdSd25uU005eWxmNkh1UU54QW5xWl9XX3FCLVowMnU0dk5OakNqbnMza01QSzBFQ2dpMER4b0liN0l2T0ppa3pVd0hRMTV3MzFFSHFVQVBSZVRvcnRN?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "Fresh Iran talks could begin this week as US continues blockade on ports - Fox News",
-      "source": "Fox News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwRlMwdTNlQ0JQVFJtWWNLMy01LUFIVlp1UV81N0I0MnZKRzI1Z2RKUU5pYVBrdzF5UW1Id1JjNlFNUUszS3JBX0k4aEhRdXVYX3RqbEZuTklJckhsNmszUFN0UE00cUJUa0QtcDdIRXJtZUhxbkUtN0d5WGhEZ9IBgwFBVV95cUxOcWJ1S041LWtNanlXUjRubnNBeDdOcVpwQURkcmpMSzd1Ml84d2s0SEVlMk4wTkJZTnhWQjBZQkhScEJBNE9QM3NmQWttR3JOeFJiRFhpTDgwRHZZSTJ6OTBzWnVSSGZaVy02WHBpRnQzd0VSelJTUWNNcXdPalNqNHRJbw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fbW1tbW9GbXpDMzFyUmxLMTdweGRtUHBqalJUWThUcGtFNllaa2NwdEFsdzZSUkhENkVMUGdnLTRmd0lneHQ1aDdvN25Yd0tVSGFCVXl4bm9xOEg2REYtVW1tRGQ4T0lhMTkxLWx0TUZnanVqQ0HSAXtBVV95cUxOTHNIa25xbXJvLTdjVVMzV2draGpneUVZTl9ETVZfYVdHaTZ1SjhOSldNY0E4VFl5MVNtOTQ5LV9HZ0E1TGtITFE4Vmh3NVpvV19fUzMwSU9QN2tya3pNNTM4dzJRSUdqeWh4MXpPNXlSaENaZ0xnQU9fNTQ?oc=5",
       "category": "world"
     }
   ],
