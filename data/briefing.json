@@ -1,52 +1,52 @@
 {
-  "date": "2026-04-16",
-  "generatedAt": "2026-04-16T16:58:27.208Z",
+  "date": "2026-04-17",
+  "generatedAt": "2026-04-17T15:43:39.886Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "7,076.75",
-      "change": "+16.25",
-      "changePercent": "+0.23%",
+      "value": "7,171.50",
+      "change": "+94.50",
+      "changePercent": "+1.34%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "48,727.00",
-      "change": "+58.00",
-      "changePercent": "+0.12%",
+      "value": "49,747.00",
+      "change": "+980.00",
+      "changePercent": "+2.01%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "26,510.50",
-      "change": "+145.00",
-      "changePercent": "+0.55%",
+      "value": "26,865.00",
+      "change": "+377.75",
+      "changePercent": "+1.43%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.30%",
-      "change": "+0.02",
-      "changePercent": "+0.49%",
-      "direction": "up",
+      "value": "4.24%",
+      "change": "-0.07",
+      "changePercent": "-1.55%",
+      "direction": "down",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$91.15",
-      "change": "-0.14",
-      "changePercent": "-0.15%",
+      "value": "$81.65",
+      "change": "-13.04",
+      "changePercent": "-13.77%",
       "direction": "down",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,807.20",
-      "change": "+7.20",
-      "changePercent": "+0.15%",
+      "value": "$4,893.70",
+      "change": "+108.30",
+      "changePercent": "+2.26%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
@@ -54,59 +54,59 @@
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Europe has 'maybe six weeks of jet fuel left', energy boss warns - BBC",
-      "source": "BBC",
+      "title": "Why Netflix Stock Is Tanking Friday - Yahoo Finance",
+      "source": "Yahoo Finance",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFUHZHTjdBZ3Y2aVVVb1BRcnF6cjAyYmNScGpkNXhodWJuWVdydXdKc2ZwUExrNzcyZm1MYnNKTGZCaFlVTHlwMjEwQjd2T2RjSUhzajhnMHdRZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd1FadTJaa0xOTTBIcURfbS1haDR1NHY1MzUtWEpIbjVFNUoySWZrZkRRNU45SUExaXJ1cms0RWxTZzVkdVFRQmVhVHZOdkFJdGZEMDMyNkEtSnhXc0NzOF9GTXY5bXhiUm9FNVlpR1RGR1EyWHpOVFJBNXFtZFdCTTRxNFZ3ZkJMRU4tempQQjF3Ym1PWnh4QVZlZU05UQ?oc=5",
       "category": "business"
     },
     {
-      "title": "The Decades-Old Legal Question at the Heart of the Fed Chair Showdown - WSJ",
-      "source": "WSJ",
+      "title": "Stock Market Today: Dow up 1,000 points, stocks hit session highs, as Trump tells reporter Iran 'agreed to everything' - MarketWatch",
+      "source": "MarketWatch",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUTVhd1lWWjNFc3U1cDVvN0RWek5RWjVZanhNX09HY0E4LXFEcUVfeWQxamU4cktpX0ZaV1RpcE5GeDJHQ2NMVkxUTzBiQl9BUXBNWlFVZlp0c3J6R0FrLU5mQ2hraW1udU9JR3lDQ185dnZtWG5Tb3hBUTJHOWRaa0NObDVWS2dPdWdhSTVYX2pRZks2Z1FhQlVCOEF3ZHZxMllXYnlVemhOYi1lMnRRd3ZmZzZVTFdGY1pBeXFnTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYUdyVmFHTjRxT1lsUXdId2JVT2pUY1p4R3FOVU43cXpvc2t3M2pqS25FckRBLWhhVHZRbmtzRnJGeDk5QVRTOUlNaHRGT2s4ZFp6RkdKN3U0TWJSNHBCQXJmOFhHNlZobFN5RUZZYS1VQWw1anJaSnBRWUlpSkQ2VTQ5dXlBUUJ5Rk9DUHlJOFV0MnRqTUFsUXlwMm41aG5qcC05U2NPYWlyR1Qyd0xKX1BzNnZsVG02NkxGbzhhNWROZVhZRGsyM053?oc=5",
       "category": "business"
     },
     {
-      "title": "S&P 500 and Nasdaq rise, hit fresh record highs: Live updates - CNBC",
+      "title": "Washington steps up scrutiny of prediction markets - abcnews.com",
+      "source": "abcnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV0t0dGs4dWpNWGpiWWk0S2d2Z3o4TUxGa0NudlhNaHpWOEx6MXNTSUd3ZmFZWGhJLWZUdWRWRFNLb1EtS3pHNm14c3hGd2ZuRHFZaWZrVkhZQU01Ulg3ZHoyOHlhRzdBaTBhSVE3a0RZMS1DV1ZvYVRBQWNteVpfQ2sxT1AtQWZoMnhMSkRKSU01eS12VHJRZU9DLUNBQ3hGVTNXVkR2SXQ?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Anthropic CEO to meet White House chief of staff as US seeks access to Mythos model - Financial Times",
+      "source": "Financial Times",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd2VaSkFYeTFtaUtIdjZDQ1VLalUyckNzLXpvVDFxb0Z4dkk0ZnFiYU42RXpPRThseHFhbWNUUWZBeUUyNjNXdmNFUF8weTh5Q2JqOFowV0ZXU3lPMms3bDVPbEtKQVlYeHJjRDhFQXBkWnVfLVp6MWMxUHNOUUQ0T1pXY0o?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Dow soars 1,000 points, S&P 500 tops 7,100 for the first time as Strait of Hormuz reopens temporarily: Live updates - CNBC",
       "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZZG9TTldPdWc5NEM4SjJuQW1xN2R3RHNlbFJTWHN4SWVOeEVLQ1NoUUNTME84TWVhQmdiOUNiTXRQWUpIa1NjQWpTUEpwRXliVExDTTVDNUYyUE05RnJHQ0l1RHctQU1QZGc5dFdhSjN1LXJlZks40gF8QVVfeXFMTkliTndPcUdrbjdGSHpYUy1lT1VSYWtTQi1VSGZDSFlYTjFNeldBNnNLakJWNUhmaHVQbzF0bC1QUXFqSFR1N0tJNVg3Y210V21QMEcxR3lUcnRzTzJEM1ZuRWgxV0IyQXB2NncxWmdYbEVmckxZWHRVVy16UA?oc=5",
-      "category": "business"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zZkF1MDMyTWp4VDA2UnhBVWxTcDRtYjdrVXlQZk8xTlpBOWgwN0tpSHJjcVFPQWFzWE13NERvaFNVbEhNV1BfVXF6ZjVfbHNPMXY3RHVVUFI1QmpPWGhSUWpzMHZWZ1d4TVN3bU9VM0ZZVVhQLW9B?oc=5",
+      "category": "world"
     },
     {
-      "title": "China’s G.D.P. Stronger Than Expected, Led by Infrastructure Spending - The New York Times",
-      "source": "The New York Times",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Ta1l6RndoaExyUGFwaDFoRFFBZkVyTm5ObGhvTEpNOUNPLTVpYlRHczdSOXpVOWRsMl9QMF9GbTdSN2o1WlM2YUVnRTlsZjB2VjBsNGhtS3lwNlhpbFlEQ09BTkVRY0ZucnhpVVczOTVZZXozamd5Mw?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "S&P 500 and Nasdaq rise, hit fresh record highs: Live updates - CNBC",
-      "source": "CNBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZZG9TTldPdWc5NEM4SjJuQW1xN2R3RHNlbFJTWHN4SWVOeEVLQ1NoUUNTME84TWVhQmdiOUNiTXRQWUpIa1NjQWpTUEpwRXliVExDTTVDNUYyUE05RnJHQ0l1RHctQU1QZGc5dFdhSjN1LXJlZks40gF8QVVfeXFMTkliTndPcUdrbjdGSHpYUy1lT1VSYWtTQi1VSGZDSFlYTjFNeldBNnNLakJWNUhmaHVQbzF0bC1QUXFqSFR1N0tJNVg3Y210V21QMEcxR3lUcnRzTzJEM1ZuRWgxV0IyQXB2NncxWmdYbEVmckxZWHRVVy16UA?oc=5",
-      "category": "markets"
-    },
-    {
-      "title": "Trump speaks with Lebanese president amid Israel ceasefire push - Axios",
+      "title": "House GOP rebellion derails FISA renewal - Axios",
       "source": "Axios",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmZONUZWTW9fcVhBTjU0U1ROaG05RFNLWGFxWlMtUzEzM1dud0J4WjJ4cG16T2ljVzZ6aUJZQXVQa041ZFlVclV6MGNkN0NVV3lYYm52Z0pERnBkVjRMQWR1amRjWG9zZWNQTjFvbHdpWmJpc3RJWGlrVExYTl9BZEVLem8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoMlhyQWZfU1NmeTM0M3ZNWXBsSl9sVkVsVVZIaE5GSnBQb1BVM2VjMDd3TUxzZ0JrbThYbURsZFhMOUZ3dDJGRUpJWk9GeTZGY3BRaU9tWVI1SVVBaXViSnVrNVlFUzJmaElLdVhPYmxzNTVLbFZPR3B3?oc=5",
       "category": "world"
     },
     {
-      "title": "Virginia Ex-Lt. Gov. Justin Fairfax Kills Wife and Self, Police Say - The New York Times",
+      "title": "Democrat Analilia Mejia wins special House election - New Jersey Monitor",
+      "source": "New Jersey Monitor",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekstTFVMSEFGOF9MVVRWaHRmVDdqSXpKSjVVUmdXcnJYdHlkQmRyN2IyTnVxR19jVHBIakotRGU4WmlyX0dMTXc1Um1QQ3FzRnpCRmRhbGlLRFBzQkdEVC1yVVNoUmZ4NUk2NVRiSEEzS1NlSFJKUTgxYW11RDFIT2diaXk?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Stephen Colbert Delights in Trump’s ‘Ongoing Papal Feud’ - The New York Times",
       "source": "The New York Times",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNXYtU2FDY2xpWk1GRzcxcHFUNUwzY3Zpc1g1eW95bGdsenhoeWdwTGtOdWdvSXVtc2wyY1BYSEx0X1FlWElVREdBbWJTZUtpRi1LX1FIMzVjeGQ1c01pRlhLRExwSW1CNnlUVE9BeEctTzR4cVlocE14a25hUVIxU19NaDFfcVdpUmh0bDczLURIRk1reF9QdVZJMmYxVVU?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "US military: 'locked and loaded' to strike Iran's power plants, energy industry if ordered - Reuters",
-      "source": "Reuters",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaEItbU9FVnJLN1l1RktWRkdtZGZiNGk1US1JTm0zRWN3MTNTNmpPVmJQYmV1bUxkRTV5WXBqVnVJWnhlM2tQbU54cXRMbF9IR0NyLW5STnV5WWl4MnM0bkJTdjhMejJwZHhuWXYwUVJaN0RZektTNHRTemtNbUdfSWpVV3dKZnFPMmdOeVVvR200c2swZFNVeHdEUnhGX0tHUGNtVDRxVHRBYTM2eG43bnJpMGlCQTAzLUVuaWwtbTc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMGhNRElrY3VnRlp5RzAxcFd5TzdleDBTTThoR0ZRa2hTdlRkSUh1RXpfOHN2aGQySnJyOVhTTnRDX0wxVUJIRVhlcV9sMVZHcVIzcW12YXF3S2F1WUw5RUpUd1VlQ29aQVlmM2MxV1ZBZ21uN0hfRnNSeHkxR2MxQWNUSkhib1U?oc=5",
       "category": "world"
     }
   ],
