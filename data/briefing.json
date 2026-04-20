@@ -1,112 +1,112 @@
 {
-  "date": "2026-04-17",
-  "generatedAt": "2026-04-17T15:43:39.886Z",
+  "date": "2026-04-20",
+  "generatedAt": "2026-04-20T16:39:31.775Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "7,171.50",
-      "change": "+94.50",
-      "changePercent": "+1.34%",
-      "direction": "up",
+      "value": "7,137.25",
+      "change": "-24.25",
+      "changePercent": "-0.34%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "49,747.00",
-      "change": "+980.00",
-      "changePercent": "+2.01%",
-      "direction": "up",
+      "value": "49,584.00",
+      "change": "-57.00",
+      "changePercent": "-0.11%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "26,865.00",
-      "change": "+377.75",
-      "changePercent": "+1.43%",
-      "direction": "up",
+      "value": "26,675.75",
+      "change": "-149.75",
+      "changePercent": "-0.56%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.24%",
-      "change": "-0.07",
-      "changePercent": "-1.55%",
-      "direction": "down",
+      "value": "4.27%",
+      "change": "+0.02",
+      "changePercent": "+0.47%",
+      "direction": "up",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$81.65",
-      "change": "-13.04",
-      "changePercent": "-13.77%",
-      "direction": "down",
+      "value": "$87.25",
+      "change": "+4.66",
+      "changePercent": "+5.64%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,893.70",
-      "change": "+108.30",
-      "changePercent": "+2.26%",
-      "direction": "up",
+      "value": "$4,821.00",
+      "change": "-58.60",
+      "changePercent": "-1.20%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
   ],
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Why Netflix Stock Is Tanking Friday - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd1FadTJaa0xOTTBIcURfbS1haDR1NHY1MzUtWEpIbjVFNUoySWZrZkRRNU45SUExaXJ1cms0RWxTZzVkdVFRQmVhVHZOdkFJdGZEMDMyNkEtSnhXc0NzOF9GTXY5bXhiUm9FNVlpR1RGR1EyWHpOVFJBNXFtZFdCTTRxNFZ3ZkJMRU4tempQQjF3Ym1PWnh4QVZlZU05UQ?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Stock Market Today: Dow up 1,000 points, stocks hit session highs, as Trump tells reporter Iran 'agreed to everything' - MarketWatch",
-      "source": "MarketWatch",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYUdyVmFHTjRxT1lsUXdId2JVT2pUY1p4R3FOVU43cXpvc2t3M2pqS25FckRBLWhhVHZRbmtzRnJGeDk5QVRTOUlNaHRGT2s4ZFp6RkdKN3U0TWJSNHBCQXJmOFhHNlZobFN5RUZZYS1VQWw1anJaSnBRWUlpSkQ2VTQ5dXlBUUJ5Rk9DUHlJOFV0MnRqTUFsUXlwMm41aG5qcC05U2NPYWlyR1Qyd0xKX1BzNnZsVG02NkxGbzhhNWROZVhZRGsyM053?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Washington steps up scrutiny of prediction markets - abcnews.com",
-      "source": "abcnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV0t0dGs4dWpNWGpiWWk0S2d2Z3o4TUxGa0NudlhNaHpWOEx6MXNTSUd3ZmFZWGhJLWZUdWRWRFNLb1EtS3pHNm14c3hGd2ZuRHFZaWZrVkhZQU01Ulg3ZHoyOHlhRzdBaTBhSVE3a0RZMS1DV1ZvYVRBQWNteVpfQ2sxT1AtQWZoMnhMSkRKSU01eS12VHJRZU9DLUNBQ3hGVTNXVkR2SXQ?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Anthropic CEO to meet White House chief of staff as US seeks access to Mythos model - Financial Times",
-      "source": "Financial Times",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd2VaSkFYeTFtaUtIdjZDQ1VLalUyckNzLXpvVDFxb0Z4dkk0ZnFiYU42RXpPRThseHFhbWNUUWZBeUUyNjNXdmNFUF8weTh5Q2JqOFowV0ZXU3lPMms3bDVPbEtKQVlYeHJjRDhFQXBkWnVfLVp6MWMxUHNOUUQ0T1pXY0o?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Dow soars 1,000 points, S&P 500 tops 7,100 for the first time as Strait of Hormuz reopens temporarily: Live updates - CNBC",
+      "title": "Stocks fall on U.S.-Iran war uncertainty, though losses kept in check: Live updates - CNBC",
       "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zZkF1MDMyTWp4VDA2UnhBVWxTcDRtYjdrVXlQZk8xTlpBOWgwN0tpSHJjcVFPQWFzWE13NERvaFNVbEhNV1BfVXF6ZjVfbHNPMXY3RHVVUFI1QmpPWGhSUWpzMHZWZ1d4TVN3bU9VM0ZZVVhQLW9B?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBESHRIalZfN1VtLUliX01CeXNnTWxkT2FIejZZLUdwSldmTU5RVWZEblI3NF9pRThDYWU0NmVySFBvMnFUaGVyZUlsZmpYLVl0QU9sZ1FFZmM2b0p2dFRhZnRpbVFYdmhzT3hMRFNpY2psR0ViMEpn0gF8QVVfeXFMT01MVnNaWkVWdElYUWlVcm42Rjc1ZmVzdU05bUFPRkZvbWo1RlJzTXU5U3NlMjI2R25GazlMdU1mUkRlNlBPNVRwZDBPS21hbEdzMHY0UUdnbVBsVERpaG8xb21hNzZ1SjVQMEJUcXFGeVh5R0MxQzh2Vy1NdA?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Rivian’s factory hit by tornado ahead of R2 launch - TechCrunch",
+      "source": "TechCrunch",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbUVWQlNkaVNyaWVJdFpsWUJYY1F6NWh0NlZYTkxGQWJqbkhubzZybFBrbi1KaC05TkxMRVUwejBvUTRfSkN5MjBJMDN0czFHeWozRWZ4a1pWcmlHQWNTVW8wU0g4WThZN2FQRzNieFNIZDdyOG5uZzg5ZjlhbkRDcjJZRncxSHpCYnFFNA?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Lilly to acquire Kelonia Therapeutics to advance in vivo CAR-T cell therapies | Eli Lilly and Company - investor.lilly.com",
+      "source": "investor.lilly.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS2F2ZGNMbl9FNHhWSFA3d1RuRUNsOG9xTm9GZXZGTXRZb2NMRVFPdTdvSUxONC1pWVk5dHU4dnRsU2JoekR5d1FkMHY5OFhQWnM4X3ZqN0YwVDdXZ181cXM3Q2pjRWZQZW5DWUNIc01UWGE2S3g2YWNVb1RCOFRveWRBRUc1ZE1TMGJxamZYWmo3VzgzcXQ3SUZYQlo5UDM1ay1HY2pUQjMxNDVlMUxZNDB1MHd2MG1nelNXMQ?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Exclusive | Bipartisan Senators Warn United and American Airlines on Potential Merger - WSJ",
+      "source": "WSJ",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONGRPOE5wQnF6a29mazNvd25tZkNRM0QxZU85UTNkVmcwMUtUWVd1Z3hnaERWRGMwYUlJS3EwQl9YZmNsRnFZdUJObkNWcWZCSC1jdlBFY2N0VzRHMDk3dXVaZENzMmQ3Tks3SXp5QldGZDBubzYtU3FueEYxM2M3dEpPV09PSEFmdXZYYTllRVdndWNodXp0ODZ6NmVuMzN5NzFJYU1Bd1JDeER5emhXWWZqLVF3ZzBtSjF1TQ?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "U.S. seizes Iranian cargo ship. And, tariff refund portal launches - NPR",
+      "source": "NPR",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ1RUOG1fTDZRaGp6SG5zLVJoYmY1T3RlM25pVm05bU05aHpKZkpNMnBSdGlmUkQxWU9xWldlUFNGemJNQmZxZTk1UUh2dy1ub3dWdFRZMktKTHJNY0dScXg2OW1hMzNTOWt0RUpCR252aHFBXzRhNTV6MXZ0Mm5LcUdUcGFsM0MyOUFPOThwZ2xCSDV1aVVlNl9YS0lQZ1FwSmFVd2dhUlhfel9halgyWEQySWJSLTNEeVJ5OHZsY24teUpNejdUcVVOZDd6Zw?oc=5",
       "category": "world"
     },
     {
-      "title": "House GOP rebellion derails FISA renewal - Axios",
-      "source": "Axios",
+      "title": "8 children killed in mass shooting in Shreveport, Louisiana, as father targets his family, police say - CBS News",
+      "source": "CBS News",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoMlhyQWZfU1NmeTM0M3ZNWXBsSl9sVkVsVVZIaE5GSnBQb1BVM2VjMDd3TUxzZ0JrbThYbURsZFhMOUZ3dDJGRUpJWk9GeTZGY3BRaU9tWVI1SVVBaXViSnVrNVlFUzJmaElLdVhPYmxzNTVLbFZPR3B3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYWdZTkdJVl9fcG5ZU0k4X2VJVkhTelM3b1VLTXlfeWxvM3dLc1Qyd0JfbmExWGg4SHJaVlNmZU8wM0lHLUFBbWNnajUxNW9YSXlDd1FYd013bm9meVc5MUpWQXE1LWl6RldLWC0wd0VaNTQydnBQNEhfRFRaOHJ0b3VoMWHSAYoBQVVfeXFMUE9ORkw3TmNOemdfekJ2VldTbVV5cGYzT1VHNDJMeG9xYmdBQUNoczNFY1hGTW10YXMxVkUwMVRPOXZEREkxS0dmdF9PeGROa1VvUWFrd1BNSll2WFhnZ1hlVjQ1ZzJIZ1pnbi1pYUJCSTEtaGV0dXctU2JvQjFxOEhtRFBfaEc1ZWtB?oc=5",
       "category": "world"
     },
     {
-      "title": "Democrat Analilia Mejia wins special House election - New Jersey Monitor",
-      "source": "New Jersey Monitor",
+      "title": "FBI Director Kash Patel sues The Atlantic claiming false reporting about drinking, absences - Reuters",
+      "source": "Reuters",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekstTFVMSEFGOF9MVVRWaHRmVDdqSXpKSjVVUmdXcnJYdHlkQmRyN2IyTnVxR19jVHBIakotRGU4WmlyX0dMTXc1Um1QQ3FzRnpCRmRhbGlLRFBzQkdEVC1yVVNoUmZ4NUk2NVRiSEEzS1NlSFJKUTgxYW11RDFIT2diaXk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM0hiektERndWZ09DdVVUZ3h1Q0M4U0tpZ1BQOXpfVk9URFZYMnBkRWZFbE56TGlsMGNRZzQ4a0phQVRpVWYzR0NqUWJVYUdiZjlQa2kzZmRDTnVoek5LU1BMemhzaDFTcDFoUzBUNWZ1MlR1OFhURUVKTHZ0dDlCZUU4N0c5aWFMS1Q4Z2dvMTZoX2xDM3BLMVlxMzAyVTA?oc=5",
       "category": "world"
     },
     {
-      "title": "Stephen Colbert Delights in Trump’s ‘Ongoing Papal Feud’ - The New York Times",
-      "source": "The New York Times",
+      "title": "Japan earthquake: 7.7 magnitude quake triggers tsunami warning - BBC",
+      "source": "BBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMGhNRElrY3VnRlp5RzAxcFd5TzdleDBTTThoR0ZRa2hTdlRkSUh1RXpfOHN2aGQySnJyOVhTTnRDX0wxVUJIRVhlcV9sMVZHcVIzcW12YXF3S2F1WUw5RUpUd1VlQ29aQVlmM2MxV1ZBZ21uN0hfRnNSeHkxR2MxQWNUSkhib1U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ON3NvUEZFYXk3WXlwWkdqTm84X1JUSjNnRDNTTWlzOUJ5YWtYcGRabGdkblBRc3FKWEZXQVZoVzFZcHZrNENObkExUGwtV0hzVXlEZjIwaXJudw?oc=5",
       "category": "world"
     }
   ],
