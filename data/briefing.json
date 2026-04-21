@@ -1,52 +1,52 @@
 {
-  "date": "2026-04-20",
-  "generatedAt": "2026-04-20T16:39:31.775Z",
+  "date": "2026-04-21",
+  "generatedAt": "2026-04-21T16:20:28.301Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "7,137.25",
-      "change": "-24.25",
-      "changePercent": "-0.34%",
+      "value": "7,131.25",
+      "change": "-16.75",
+      "changePercent": "-0.23%",
       "direction": "down",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "49,584.00",
-      "change": "-57.00",
-      "changePercent": "-0.11%",
+      "value": "49,608.00",
+      "change": "-31.00",
+      "changePercent": "-0.06%",
       "direction": "down",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "26,675.75",
-      "change": "-149.75",
-      "changePercent": "-0.56%",
+      "value": "26,748.00",
+      "change": "-0.75",
+      "changePercent": "-0.00%",
       "direction": "down",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.27%",
-      "change": "+0.02",
-      "changePercent": "+0.47%",
+      "value": "4.29%",
+      "change": "+0.04",
+      "changePercent": "+1.01%",
       "direction": "up",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$87.25",
-      "change": "+4.66",
-      "changePercent": "+5.64%",
+      "value": "$89.87",
+      "change": "+0.26",
+      "changePercent": "+0.29%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,821.00",
-      "change": "-58.60",
-      "changePercent": "-1.20%",
+      "value": "$4,752.20",
+      "change": "-54.40",
+      "changePercent": "-1.13%",
       "direction": "down",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
@@ -54,59 +54,59 @@
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Stocks fall on U.S.-Iran war uncertainty, though losses kept in check: Live updates - CNBC",
+      "title": "Fed nominee pledges inflation fight even as Trump renews demands for rate cuts that could worsen it - AP News",
+      "source": "AP News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdG1nQ0pSNUJ0OXpYXzVoVFVFcEF2endvUWo0bzhJQ081WThYekRiU3MxcHBsRm9NMHRWYk5JRy1Zb2ZmQVlxMmVYYmVTQWdmLUFHeWRVZ2JyWVk5czYyOHZJRlFGSEhvSWk2ZUVQQVlINXh0REdlTVBIUmlBMzZkbEpkWEt5ODdNS0hCcWh0U0JKVy1iS2pkdGdwX29Pb29EX1E0?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Apple Bets New CEO John Ternus Will Bring Back Jobs-Era Decisiveness - Bloomberg",
+      "source": "Bloomberg",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1ZxOVN4S3Azam83c1JKTjNaWmlORjM0Z281dkZpM1RsaFlzVnQ4czItX2FDVnJkZlJCdkpSeDQzYkFoenpnWWw1MTVWQ2ZfbkdOVDZIdlVzQUNWNEhWc3lzU2V2M3JvMldOdTNLV0VtWnl5R1BFREhWNi1Fa2ZRLW9MVlFxM2tzRV9hcWEtb0k0bFJYZzlUVGEyTHA1Ul9XVVpxV3BfSlAzYWRYMnpMQkZhOE9PY2U3eU1j?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "S&P 500 moves into the red as oil rises ahead of Iran ceasefire deadline: Live updates - CNBC",
       "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBESHRIalZfN1VtLUliX01CeXNnTWxkT2FIejZZLUdwSldmTU5RVWZEblI3NF9pRThDYWU0NmVySFBvMnFUaGVyZUlsZmpYLVl0QU9sZ1FFZmM2b0p2dFRhZnRpbVFYdmhzT3hMRFNpY2psR0ViMEpn0gF8QVVfeXFMT01MVnNaWkVWdElYUWlVcm42Rjc1ZmVzdU05bUFPRkZvbWo1RlJzTXU5U3NlMjI2R25GazlMdU1mUkRlNlBPNVRwZDBPS21hbEdzMHY0UUdnbVBsVERpaG8xb21hNzZ1SjVQMEJUcXFGeVh5R0MxQzh2Vy1NdA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3eW9mOG1FMjNFc21qR2JhWWtTbVZTc2piM2drclpaVVFuVHo2OXVYMWxYVXpMOC1jVktVOWdpLWFxZ29wYkVPNUlvUU1kQkx4cjdzM2Raa2VaR2lQRExZd1VuR2NkazItNW1hRFNmcVdMZlZjQlU00gF8QVVfeXFMTTFoQkRzVURZOGNXNWU4clZJWFB3Rk5Rd2VpSkh1dzNqajlnRmNuSDNvOG5fUzhidHZfNVdHYmlsQ2QyTV9mM21FaDR1TFpLTUhxTFNGdG82ZlJURTljdkhxV0tzM3hSaHVVUUJRbngxbUJ4ZG13aHl1TERUSA?oc=5",
       "category": "business"
     },
     {
-      "title": "Rivian’s factory hit by tornado ahead of R2 launch - TechCrunch",
-      "source": "TechCrunch",
+      "title": "Trump Dismisses a Merger While Seeking Suitors for Spirit Airlines - The New York Times",
+      "source": "The New York Times",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbUVWQlNkaVNyaWVJdFpsWUJYY1F6NWh0NlZYTkxGQWJqbkhubzZybFBrbi1KaC05TkxMRVUwejBvUTRfSkN5MjBJMDN0czFHeWozRWZ4a1pWcmlHQWNTVW8wU0g4WThZN2FQRzNieFNIZDdyOG5uZzg5ZjlhbkRDcjJZRncxSHpCYnFFNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZVRTcnFHTGNSN0ZrcUUyZXNXdk1LWjE5Tk5obkNYaXFXNnB5d1Bwa01CX0tZanpia2JCOWlQTmVMcTF0MkRhOHdId1Q1bHA0Tkl5QUZwQ1ZIZDRTeGlHSUJHVEFtSHpva0lYZHkzUW1tRXExR3JsUEoyRERxN1VQLWJERzFkMlR2SWxNSFdBNA?oc=5",
       "category": "business"
     },
     {
-      "title": "Lilly to acquire Kelonia Therapeutics to advance in vivo CAR-T cell therapies | Eli Lilly and Company - investor.lilly.com",
-      "source": "investor.lilly.com",
+      "title": "S&P 500 moves into the red as oil rises ahead of Iran ceasefire deadline: Live updates - CNBC",
+      "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS2F2ZGNMbl9FNHhWSFA3d1RuRUNsOG9xTm9GZXZGTXRZb2NMRVFPdTdvSUxONC1pWVk5dHU4dnRsU2JoekR5d1FkMHY5OFhQWnM4X3ZqN0YwVDdXZ181cXM3Q2pjRWZQZW5DWUNIc01UWGE2S3g2YWNVb1RCOFRveWRBRUc1ZE1TMGJxamZYWmo3VzgzcXQ3SUZYQlo5UDM1ay1HY2pUQjMxNDVlMUxZNDB1MHd2MG1nelNXMQ?oc=5",
-      "category": "business"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3eW9mOG1FMjNFc21qR2JhWWtTbVZTc2piM2drclpaVVFuVHo2OXVYMWxYVXpMOC1jVktVOWdpLWFxZ29wYkVPNUlvUU1kQkx4cjdzM2Raa2VaR2lQRExZd1VuR2NkazItNW1hRFNmcVdMZlZjQlU00gF8QVVfeXFMTTFoQkRzVURZOGNXNWU4clZJWFB3Rk5Rd2VpSkh1dzNqajlnRmNuSDNvOG5fUzhidHZfNVdHYmlsQ2QyTV9mM21FaDR1TFpLTUhxTFNGdG82ZlJURTljdkhxV0tzM3hSaHVVUUJRbngxbUJ4ZG13aHl1TERUSA?oc=5",
+      "category": "markets"
     },
     {
-      "title": "Exclusive | Bipartisan Senators Warn United and American Airlines on Potential Merger - WSJ",
-      "source": "WSJ",
+      "title": "Middle East crisis live: Trump says he does not want to extend ceasefire with Iran - The Guardian",
+      "source": "The Guardian",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONGRPOE5wQnF6a29mazNvd25tZkNRM0QxZU85UTNkVmcwMUtUWVd1Z3hnaERWRGMwYUlJS3EwQl9YZmNsRnFZdUJObkNWcWZCSC1jdlBFY2N0VzRHMDk3dXVaZENzMmQ3Tks3SXp5QldGZDBubzYtU3FueEYxM2M3dEpPV09PSEFmdXZYYTllRVdndWNodXp0ODZ6NmVuMzN5NzFJYU1Bd1JDeER5emhXWWZqLVF3ZzBtSjF1TQ?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "U.S. seizes Iranian cargo ship. And, tariff refund portal launches - NPR",
-      "source": "NPR",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ1RUOG1fTDZRaGp6SG5zLVJoYmY1T3RlM25pVm05bU05aHpKZkpNMnBSdGlmUkQxWU9xWldlUFNGemJNQmZxZTk1UUh2dy1ub3dWdFRZMktKTHJNY0dScXg2OW1hMzNTOWt0RUpCR252aHFBXzRhNTV6MXZ0Mm5LcUdUcGFsM0MyOUFPOThwZ2xCSDV1aVVlNl9YS0lQZ1FwSmFVd2dhUlhfel9halgyWEQySWJSLTNEeVJ5OHZsY24teUpNejdUcVVOZDd6Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZktnZk1UOFFHX2VXNHB0TUY0eTczOEZhdHZWX0JEa2RaUTZaZzRqTWowUk5qQnFVUHVJY0hLdlpJLUd5WmJMLVBaOFAwQXZsTUx4eGFyQ1U2aGI2enFLLS1lMFNDcXJJaHJnbW40WUt2UE9xQXhWTk9tai1FTjBLVk9mYUNZR3F0Y2lZU1ZfS3RvM3p0QXNEclJmbWhtOWwtSUZ2U0NRNDlWWUxzeUNIQWxSV1luZw?oc=5",
       "category": "world"
     },
     {
-      "title": "8 children killed in mass shooting in Shreveport, Louisiana, as father targets his family, police say - CBS News",
-      "source": "CBS News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYWdZTkdJVl9fcG5ZU0k4X2VJVkhTelM3b1VLTXlfeWxvM3dLc1Qyd0JfbmExWGg4SHJaVlNmZU8wM0lHLUFBbWNnajUxNW9YSXlDd1FYd013bm9meVc5MUpWQXE1LWl6RldLWC0wd0VaNTQydnBQNEhfRFRaOHJ0b3VoMWHSAYoBQVVfeXFMUE9ORkw3TmNOemdfekJ2VldTbVV5cGYzT1VHNDJMeG9xYmdBQUNoczNFY1hGTW10YXMxVkUwMVRPOXZEREkxS0dmdF9PeGROa1VvUWFrd1BNSll2WFhnZ1hlVjQ1ZzJIZ1pnbi1pYUJCSTEtaGV0dXctU2JvQjFxOEhtRFBfaEc1ZWtB?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "FBI Director Kash Patel sues The Atlantic claiming false reporting about drinking, absences - Reuters",
-      "source": "Reuters",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM0hiektERndWZ09DdVVUZ3h1Q0M4U0tpZ1BQOXpfVk9URFZYMnBkRWZFbE56TGlsMGNRZzQ4a0phQVRpVWYzR0NqUWJVYUdiZjlQa2kzZmRDTnVoek5LU1BMemhzaDFTcDFoUzBUNWZ1MlR1OFhURUVKTHZ0dDlCZUU4N0c5aWFMS1Q4Z2dvMTZoX2xDM3BLMVlxMzAyVTA?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "Japan earthquake: 7.7 magnitude quake triggers tsunami warning - BBC",
+      "title": "Woman and child jumped off roof to escape deadly Louisiana shooting - BBC",
       "source": "BBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ON3NvUEZFYXk3WXlwWkdqTm84X1JUSjNnRDNTTWlzOUJ5YWtYcGRabGdkblBRc3FKWEZXQVZoVzFZcHZrNENObkExUGwtV0hzVXlEZjIwaXJudw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FbW1DQmFwNDRKamNFaFA1b2NTVVVtTnZkVzJTYlJhR0JVV0NvUE5TaFVqYU1BZWgtVU9sUWJQSlZfVk5fdDF6VDN6US1idXJnV1RFX21iV2pFUQ?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "2 Americans Killed in Mexico Crash Were C.I.A. Officers - The New York Times",
+      "source": "The New York Times",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMUh2NHRsTGhPQXZCdUV4U2VWOUdSRHdjOWdpREFCbXh0cjFDWDFQYmhVTnRhenhCTU1ITFUwSGVUTnFIbVAzeWEtWm1RTzZRUUQzY1NYSnp6MjZ6T1FWSDhLXzVMVkJsZWoxTkMxeWVRWDN4SHNWOFR0S1U0cU5ZU0FuaW4wbVZj?oc=5",
       "category": "world"
     }
   ],
