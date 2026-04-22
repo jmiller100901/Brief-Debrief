@@ -1,112 +1,112 @@
 {
-  "date": "2026-04-21",
-  "generatedAt": "2026-04-21T16:20:28.301Z",
+  "date": "2026-04-22",
+  "generatedAt": "2026-04-22T16:18:45.841Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "7,131.25",
-      "change": "-16.75",
-      "changePercent": "-0.23%",
-      "direction": "down",
+      "value": "7,157.00",
+      "change": "+57.00",
+      "changePercent": "+0.80%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "49,608.00",
-      "change": "-31.00",
-      "changePercent": "-0.06%",
-      "direction": "down",
+      "value": "49,681.00",
+      "change": "+342.00",
+      "changePercent": "+0.69%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "26,748.00",
-      "change": "-0.75",
-      "changePercent": "-0.00%",
-      "direction": "down",
+      "value": "26,988.00",
+      "change": "+353.25",
+      "changePercent": "+1.33%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
       "value": "4.29%",
-      "change": "+0.04",
-      "changePercent": "+1.01%",
+      "change": "+0.00",
+      "changePercent": "+0.05%",
       "direction": "up",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$89.87",
-      "change": "+0.26",
-      "changePercent": "+0.29%",
+      "value": "$92.96",
+      "change": "+0.83",
+      "changePercent": "+0.90%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,752.20",
-      "change": "-54.40",
-      "changePercent": "-1.13%",
-      "direction": "down",
+      "value": "$4,751.70",
+      "change": "+53.30",
+      "changePercent": "+1.13%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
   ],
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Fed nominee pledges inflation fight even as Trump renews demands for rate cuts that could worsen it - AP News",
-      "source": "AP News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdG1nQ0pSNUJ0OXpYXzVoVFVFcEF2endvUWo0bzhJQ081WThYekRiU3MxcHBsRm9NMHRWYk5JRy1Zb2ZmQVlxMmVYYmVTQWdmLUFHeWRVZ2JyWVk5czYyOHZJRlFGSEhvSWk2ZUVQQVlINXh0REdlTVBIUmlBMzZkbEpkWEt5ODdNS0hCcWh0U0JKVy1iS2pkdGdwX29Pb29EX1E0?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Apple Bets New CEO John Ternus Will Bring Back Jobs-Era Decisiveness - Bloomberg",
-      "source": "Bloomberg",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1ZxOVN4S3Azam83c1JKTjNaWmlORjM0Z281dkZpM1RsaFlzVnQ4czItX2FDVnJkZlJCdkpSeDQzYkFoenpnWWw1MTVWQ2ZfbkdOVDZIdlVzQUNWNEhWc3lzU2V2M3JvMldOdTNLV0VtWnl5R1BFREhWNi1Fa2ZRLW9MVlFxM2tzRV9hcWEtb0k0bFJYZzlUVGEyTHA1Ul9XVVpxV3BfSlAzYWRYMnpMQkZhOE9PY2U3eU1j?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "S&P 500 moves into the red as oil rises ahead of Iran ceasefire deadline: Live updates - CNBC",
+      "title": "Trump administration in advanced talks for Spirit Airlines rescue package, source says - CNBC",
       "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3eW9mOG1FMjNFc21qR2JhWWtTbVZTc2piM2drclpaVVFuVHo2OXVYMWxYVXpMOC1jVktVOWdpLWFxZ29wYkVPNUlvUU1kQkx4cjdzM2Raa2VaR2lQRExZd1VuR2NkazItNW1hRFNmcVdMZlZjQlU00gF8QVVfeXFMTTFoQkRzVURZOGNXNWU4clZJWFB3Rk5Rd2VpSkh1dzNqajlnRmNuSDNvOG5fUzhidHZfNVdHYmlsQ2QyTV9mM21FaDR1TFpLTUhxTFNGdG82ZlJURTljdkhxV0tzM3hSaHVVUUJRbngxbUJ4ZG13aHl1TERUSA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWC1CYVdqSzhJa05WcmduOERkbWhBc3NfcFZ6SUdsd3N1SVJpVnVjX2Y3NEw3bkRaWDViRkZFMWlWX3JlUmk2T3pCMExJZEZZME50RXVPUWlxcTRTMHA5VExjZkFic0E1aG5QZjZ5c2FmRUNmSEJlQ3UxTFBsNmVXalVHc3JMYzDSAYwBQVVfeXFMT2xGQXVnUWVZelRyQ095RG5BM0hiS1RZZzFnYTVUcWxZOTNOY3RsZHJiWTNjX0VuUktyTEVqb3hXV1RwR3ViM3lxaDRJR0VRY21BalpHcGctVGR0aE1Dd0t3cHNQY0tWa21DTVJ3Y01kcXlWdDkxSUlXbzJ3WEFyQnNSc2RQbXZjaTV3ay0?oc=5",
       "category": "business"
     },
     {
-      "title": "Trump Dismisses a Merger While Seeking Suitors for Spirit Airlines - The New York Times",
+      "title": "Stock Market Today: Nasdaq Picks Up Steam On Trump Ceasefire; United Airlines Takes A Tumble (Live Coverage) - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY2xBeGpQUF9hWURXQU9GekZ2LUZoNDk5QlBTUzNGdjZxaUF5djRhZzBYZVpCMXdRVWxseVNsc3VlY3RvVkl5REVCdEY1aUNSWVBVYUw2Qmxvci1JOE5RUk1yRnd3WjRHbWJUaE9WcjJiS29icU5LMHJXS0g2M1lxN0l2cjFSRVpPZVZmN0lDZnlPMVpJclVHNWpjLTJaM0hybWhORGp5Q3VRaXBVRzdhaV9pWlBYTkpBNHc?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Kevin Warsh, Trump’s Fed Pick, Has Tough Task Shedding ‘Sock Puppet’ Label - The New York Times",
       "source": "The New York Times",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZVRTcnFHTGNSN0ZrcUUyZXNXdk1LWjE5Tk5obkNYaXFXNnB5d1Bwa01CX0tZanpia2JCOWlQTmVMcTF0MkRhOHdId1Q1bHA0Tkl5QUZwQ1ZIZDRTeGlHSUJHVEFtSHpva0lYZHkzUW1tRXExR3JsUEoyRERxN1VQLWJERzFkMlR2SWxNSFdBNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjkwUnNHbnpvdVB0UjF4bGhmLWtWdFpzQzEtcUh5SjVGWXQ3UnRJR0N5UGI3Yk1CcWVBakkwOFRyRjdfUkdONXB4QkNRWHpLYjAyYm1MN1hudnp1bFVQWXA5UkVabmhRZUJVczE1Y2pZRm9ZU0tSQy1VRzJ6dzRmdTI2dw?oc=5",
       "category": "business"
     },
     {
-      "title": "S&P 500 moves into the red as oil rises ahead of Iran ceasefire deadline: Live updates - CNBC",
-      "source": "CNBC",
+      "title": "Boeing’s Commercial Jet Business Improves, Reducing Quarterly Loss - WSJ",
+      "source": "WSJ",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3eW9mOG1FMjNFc21qR2JhWWtTbVZTc2piM2drclpaVVFuVHo2OXVYMWxYVXpMOC1jVktVOWdpLWFxZ29wYkVPNUlvUU1kQkx4cjdzM2Raa2VaR2lQRExZd1VuR2NkazItNW1hRFNmcVdMZlZjQlU00gF8QVVfeXFMTTFoQkRzVURZOGNXNWU4clZJWFB3Rk5Rd2VpSkh1dzNqajlnRmNuSDNvOG5fUzhidHZfNVdHYmlsQ2QyTV9mM21FaDR1TFpLTUhxTFNGdG82ZlJURTljdkhxV0tzM3hSaHVVUUJRbngxbUJ4ZG13aHl1TERUSA?oc=5",
-      "category": "markets"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOajRwcU03c1NqZ2w3YXJObVAzblR2enhNNndIaU5OQ29aRHhEMlBocXJMRnlvYkIwTGtsaTZDRXBtYlZqbWNHdFlqSERORDd5OFhoR0lpZkk3S25QSnVqc20zZlJSTjRrRndyeHNxdGFSWm9UR1VIVnlScl9IM19KNGpaTTBrYzlNeTgzUXhGVQ?oc=5",
+      "category": "business"
     },
     {
-      "title": "Middle East crisis live: Trump says he does not want to extend ceasefire with Iran - The Guardian",
-      "source": "The Guardian",
+      "title": "Iran War Live News Updates: Three Ships Attacked in Strait of Hormuz, Escorting Two to Its Coast - WSJ",
+      "source": "WSJ",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZktnZk1UOFFHX2VXNHB0TUY0eTczOEZhdHZWX0JEa2RaUTZaZzRqTWowUk5qQnFVUHVJY0hLdlpJLUd5WmJMLVBaOFAwQXZsTUx4eGFyQ1U2aGI2enFLLS1lMFNDcXJJaHJnbW40WUt2UE9xQXhWTk9tai1FTjBLVk9mYUNZR3F0Y2lZU1ZfS3RvM3p0QXNEclJmbWhtOWwtSUZ2U0NRNDlWWUxzeUNIQWxSV1luZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UkN3UnZ4bXVpSDJtX0JaOUl5OV9PRF82MnlxNXdxYzJyNEFGWWljTlNuSmxkT1pKcWJmMGxIMTFIYjNzd3NERU5VQ3ozMUZJRDI4TjNnVXpRZzZHd0g3cC1JRHJ2WHFsVEpF?oc=5",
       "category": "world"
     },
     {
-      "title": "Woman and child jumped off roof to escape deadly Louisiana shooting - BBC",
-      "source": "BBC",
+      "title": "Virginia redistricting referendum - CNN",
+      "source": "CNN",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FbW1DQmFwNDRKamNFaFA1b2NTVVVtTnZkVzJTYlJhR0JVV0NvUE5TaFVqYU1BZWgtVU9sUWJQSlZfVk5fdDF6VDN6US1idXJnV1RFX21iV2pFUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWnBTbWxOS3ZRYTE2WVNwTkNBbWl1MHFzSmpJNkRlazZyemRHUllUdW1kOGpGMDg5dTdxT1RlZ0p4M0pXUGpKeEVaeVhaN2taSlJhQnhVQmxWNmlrZkJ1NWExU0piN3J3XzU3enlxWC1rYUpKODFvRE4zbzVRX2U0Ug?oc=5",
       "category": "world"
     },
     {
-      "title": "2 Americans Killed in Mexico Crash Were C.I.A. Officers - The New York Times",
+      "title": "RFK Jr. set to face Bill Cassidy in back-to-back Senate hearings - NBC News",
+      "source": "NBC News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaHpMX0l6RFN0ay1NdmVtTHpfX0haU2tvVVdCRGV5ZzJnbU5KQ0M0RVdfa0FOR2JjamNlaTdocW45RENlbzdpbUVoRkptUzFyNGRhN0FOeFNJVzVORS0xdEZKTFlaNjBHWHRSOU1ocTNKbXZ6TFMtX2RTRnV5NFp2dUlqNnVMZmN5V0YwNDZYQzU0eFhuWEdNODhucVltQklVU0xocldB?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "To Iran, Trump Blinked First by Extending the Cease-Fire - The New York Times",
       "source": "The New York Times",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMUh2NHRsTGhPQXZCdUV4U2VWOUdSRHdjOWdpREFCbXh0cjFDWDFQYmhVTnRhenhCTU1ITFUwSGVUTnFIbVAzeWEtWm1RTzZRUUQzY1NYSnp6MjZ6T1FWSDhLXzVMVkJsZWoxTkMxeWVRWDN4SHNWOFR0S1U0cU5ZU0FuaW4wbVZj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNFl6TmUwcGNwOHZxSEVCdGwwelRBc0I2YkZ3cVRCTzlOVTFnc2lxaE4zMVZkb3hfY0xJWXBPdFRidm0tV0owUEhBZGl5NU5NUXQ4TmlMMFFlckVZRlFJYXpJU05QemJodXpiZ01td0NpRUQ1cllvTkhUV1Qtcl9SQkY1MA?oc=5",
       "category": "world"
     }
   ],
