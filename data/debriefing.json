@@ -1,127 +1,114 @@
 {
-  "date": "2026-04-22",
-  "generatedAt": "2026-04-23T00:05:26.021Z",
+  "date": "2026-04-23",
+  "generatedAt": "2026-04-23T17:30:00-05:00",
+  "dataSourceNote": "Outlook email MCP requires re-authentication — email data unavailable. Google Calendar returned no events. Items below carried forward from April 22 debrief and SecondBrain context.",
   "unresponded": [
     {
       "from": "Michele Wheeler",
       "subject": "Conf Call: AC Marriott Element Maturity Dates",
-      "needsResponse": "Teams meeting invite sent for call with Roxanne Hajikhani (Winstead), Mark Butler, John Stone, Michele, and Jack to review Hall Group's proposed 6-month extension offer. Need to accept/decline.",
+      "needsResponse": "Teams meeting invite for call with Winstead (Roxanne Hajikhani), Mark Butler, John Stone, Michele. Status of call outcome unknown — if it happened last week, follow-up action items should be tracked.",
       "urgency": "high",
-      "receivedAt": "4:35 PM"
-    },
-    {
-      "from": "Ryan Beadle",
-      "subject": "FW: Pay App #9 - Landis Ridge Specs",
-      "needsResponse": "Final Ranger pay app forwarded for Landis Ridge. Includes $2,144 change order and release of all retainage. Needs architect signature then Jack to process for construction draw.",
-      "urgency": "medium",
-      "receivedAt": "1:56 PM"
+      "receivedAt": "4:35 PM (4/15)"
     },
     {
       "from": "Mark Butler",
       "subject": "FW: Debt Service Shortfall Reserve",
-      "needsResponse": "Butler forwarded Busey Bank (Brian Moe) shortfall reserve calc to Jack directly — ~$174k deposit for 3 months of debt service shortfall. Needs review and likely acknowledgment/response.",
+      "needsResponse": "Busey Bank (Brian Moe) shortfall reserve calc — ~$174k deposit for 3 months of debt service shortfall. Needs Jack review and acknowledgment/response. Carried from 4/22.",
       "urgency": "medium",
-      "receivedAt": "2:38 PM"
+      "receivedAt": "2:38 PM (4/22)"
+    },
+    {
+      "from": "Ryan Beadle",
+      "subject": "FW: Pay App #9 - Landis Ridge Specs",
+      "needsResponse": "Final Ranger pay app — $2,144 change order + full retainage release. Awaiting architect signature, then Jack processes for construction draw.",
+      "urgency": "medium",
+      "receivedAt": "1:56 PM (4/22)"
     }
   ],
   "actionableItems": [
     {
-      "item": "Add hotels tab to Interest Carry Forecast (Symphony Park, Norterra, AC Fort Worth)",
+      "item": "AC Marriott Element — determine outcome of Winstead call and next steps on Hall Group 6-month extension (25bps fee)",
       "status": "pending",
-      "source": "John Stone reply at 4:18 PM / Jack confirmed at 4:29 PM"
+      "source": "Michele Wheeler / Winstead (Roxanne Hajikhani)"
     },
     {
-      "item": "Add CrossPoint Ph I principal payments tab to Interest Carry Forecast",
+      "item": "Interest Carry Forecast — add hotels tab (Symphony Park, Norterra, AC Fort Worth) and CrossPoint Ph I principal payments tab",
       "status": "pending",
-      "source": "John Stone reply — 'Yes, do a version with the principal pmts for Crosspoint Ph I'"
-    },
-    {
-      "item": "Accept/decline Teams invite for AC Marriott Element maturity date call",
-      "status": "pending",
-      "source": "Michele Wheeler calendar invite 4:35 PM"
+      "source": "John Stone request 4/22 — Jack committed at 4:29 PM"
     },
     {
       "item": "Review Busey Bank debt service shortfall reserve calc (~$174k) and respond to Mark Butler",
       "status": "pending",
-      "source": "Mark Butler FW at 2:38 PM"
+      "source": "Mark Butler FW 4/22 at 2:38 PM"
     },
     {
       "item": "Process Landis Ridge Pay App #9 for construction draw (await architect signature from Beadle)",
       "status": "pending",
-      "source": "Ryan Beadle email 1:56 PM"
+      "source": "Ryan Beadle email 4/22 at 1:56 PM"
     },
     {
-      "item": "Upload SoHo (Houston DD) plans to SharePoint — Reid Watler sent latest plans via attachment",
+      "item": "Upload Houston SoHo DD plans to SharePoint — Reid Watler sent latest plans via email; Grant Pearson still can't edit SharePoint folders",
       "status": "pending",
-      "source": "Reid Watler reply 3:31 PM / Grant Pearson still can't edit SharePoint folders"
+      "source": "Reid Watler / Grant Pearson thread"
     },
     {
-      "item": "Await Texas Capital Bank (Shaun Allen) written terms on Houston financing — expected by Friday 4/11",
-      "status": "pending",
-      "source": "Mark Butler Houston financing update 10:36 AM"
+      "item": "Texas Capital Bank (Shaun Allen) — written terms for SHC + Crosstimbers; expected 4/11, now overdue — confirm status",
+      "status": "overdue",
+      "source": "Mark Butler Houston financing thread"
     },
     {
-      "item": "R45 Asset Plan Leasing Assumptions — sent to Sarah Clark",
+      "item": "Output folder setup — all Claude-generated files now canonical at Desktop/Claude/Outputs/",
       "status": "done",
-      "source": "Jack sent at 1:09 PM, Clark confirmed 'Will do'"
-    },
-    {
-      "item": "Crosstimbers site plan updated in SharePoint for Houston Due Diligence",
-      "status": "done",
-      "source": "Grant Pearson request / Jack reply at 3:27 PM"
-    },
-    {
-      "item": "GPM Life lien release on 4890 Alpha Rd — Clint Hennessey confirmed year (~2008), meeting canceled",
-      "status": "done",
-      "source": "Jack canceled calendar event at 12:21 PM / Stone + Hennessey email thread"
+      "source": "Claude Code session 4/23"
     }
   ],
-  "todayRecap": "Active day with multiple parallel workstreams. Key output: Interest Carry Forecast model sent to John Stone — Stone praised it and asked for hotels tab (Symphony Park, Norterra, AC Fort Worth) plus CrossPoint Ph I principal; Jack committed to adding those. R45 leasing assumptions shared with Sarah Clark for 2026 asset plan budget creation. Crosstimbers site plan updated in SharePoint for Houston DD. GPM Life lien on 4890 Alpha Rd was resolved via email (Clint Hennessey confirmed date ~2008), so the in-person meeting was canceled. Major new issue emerged late afternoon: AC Marriott Element maturity date crisis — Don Braun (Hall Group Vice Chairman) sent Michele Wheeler a detailed memo proposing a 6-month extension of the DSCR covenant/maturity date to May 1, 2027 with 25bps fee (prorated from 50bps), citing inability to hit DSCR by year-end. Leadership (Stone, Wheeler, Butler, Jack) plus Winstead counsel (Roxanne Hajikhani, Andy Dow) being coordinated for a call, likely Thu 4/16 or Fri 4/17. Houston industrial financing: Pinnacle Financial sent indicative terms (SHC: $10M / Crosstimbers: $13.2M, 60% LTC, SOFR+245); Texas Capital verbal at mid-200s over SOFR with written terms by Friday. Harmony and Pinnacle remain the only non-recourse options.",
+  "todayRecap": "Email access unavailable for today's session (Outlook MCP requires re-auth). Based on known context: Today is April 23 — Huntington Q1 earnings released (relevant for Shaw Report tenant tracking, Huntington rated LOW alert). Markets slightly red: S&P -0.07%, Dow -0.16%, Nasdaq near flat (+0.04%), 10Y at 4.29%. Crude oil +1.39% on Hormuz tension. Key open workstreams heading into end of week: Interest Carry Forecast hotels + CrossPoint Ph I tabs (committed to John Stone), AC Marriott Element Hall Group maturity extension (call with Winstead was targeted for Thu 4/16 or Fri 4/17 — outcome should be known), Busey shortfall reserve (~$174k, pending), and Landis Ridge Pay App #9 (awaiting architect signature). Claude Code workflow session today focused on setting up canonical output folder at Desktop/Claude/Outputs/.",
   "priorityStatus": [
     {
       "item": "Interest Carry Forecast model",
-      "activity": "Sent to John Stone. Stone loved it — asked for hotels (Symphony Park, Norterra, AC FW) + CrossPoint Ph I principal tabs. Jack committed to adding both.",
+      "activity": "Hotels tab (Symphony Park, Norterra, AC FW) + CrossPoint Ph I principal tab committed to John Stone. Still to build.",
       "progress": "active"
     },
     {
-      "item": "AC Marriott Element maturity dates",
-      "activity": "Hall Group (Don Braun) formally proposed 6-month extension to May 2027 with 25bps fee. Call being scheduled with Winstead counsel for next week.",
+      "item": "AC Marriott Element maturity dates (Hall Group)",
+      "activity": "Winstead call was scheduled for 4/16 or 4/17. Outcome unknown — likely needs follow-up action.",
       "progress": "active"
     },
     {
       "item": "Houston industrial financing (SHC + Crosstimbers)",
-      "activity": "Pinnacle indicative terms received (non-recourse, 60% LTC). Texas Capital verbal terms given, written by Friday. Harmony still the only confirmed non-recourse.",
-      "progress": "on-track"
+      "activity": "Texas Capital written terms overdue since 4/11. Pinnacle indicative terms in hand. Status unclear — confirm with Mark Butler.",
+      "progress": "pending"
     },
     {
-      "item": "Houston DD (SHC + Crosstimbers)",
-      "activity": "Crosstimbers site plan updated. Reid shared latest SoHo plans via email (Grant can't access SharePoint). IFP page-turn scheduled 5/4/26.",
-      "progress": "on-track"
-    },
-    {
-      "item": "R45 Asset Plan",
-      "activity": "Leasing assumptions verified by Reid Watler and sent to Sarah Clark for 2026 budget creation.",
-      "progress": "done"
+      "item": "Busey Bank shortfall reserve",
+      "activity": "~$174k deposit calculation forwarded by Mark Butler on 4/22. Jack has not yet reviewed or responded.",
+      "progress": "pending"
     },
     {
       "item": "Landis Ridge Pay App #9",
-      "activity": "Final Ranger pay app received. Awaiting architect signature, then Jack to process for draw.",
+      "activity": "Awaiting architect signature from Ryan Beadle before Jack can process draw.",
       "progress": "pending"
     },
     {
       "item": "GPM Life lien release (4890 Alpha Rd)",
-      "activity": "Resolved via email — Clint Hennessey confirmed. Calendar meeting canceled.",
+      "activity": "Resolved — Clint Hennessey confirmed date ~2008. In-person meeting canceled.",
       "progress": "done"
+    },
+    {
+      "item": "Fort Worth Camp Bowie underwriting (331 acres)",
+      "activity": "Miles Terry confirmed Jack's pass (add $15k WOTUS). Pre-LOI; no term sheet yet.",
+      "progress": "active"
     }
   ],
   "tomorrowCalendar": [],
   "openLoops": [
-    "AC Marriott Element maturity call — leadership + Winstead call not yet formally scheduled; options are Thu 4/16 or Fri 4/17",
-    "Interest Carry Forecast — hotels tab (Symphony Park, Norterra, AC FW) + CrossPoint Ph I principal tab still to be built",
-    "Debt Service Shortfall Reserve — Mark Butler forwarded Busey calc to Jack, no response yet",
-    "Houston SoHo DD — Reid sent plans via email but they haven't been uploaded to SharePoint; Grant can't edit folders",
-    "Texas Capital Bank (Shaun Allen) — written terms expected by Friday 4/11 for SHC + Crosstimbers financing",
-    "Landis Ridge Pay App #9 — Ryan Beadle getting architect signature; Jack needs to process for draw once received",
-    "Claude Intro for accounting leadership (Scott, Sarah, Joseph) — Stone asked Butler to schedule; Butler confirmed"
+    "Interest Carry Forecast — hotels tab (Symphony Park, Norterra, AC FW) + CrossPoint Ph I principal tab still to be built for John Stone",
+    "AC Marriott Element — Hall Group 6-month extension proposal; Winstead call outcome needs tracking; no decision on 25bps counter/accept/decline",
+    "Texas Capital Bank (Shaun Allen) — written terms for SHC + Crosstimbers, expected 4/11, significantly overdue",
+    "Busey Bank shortfall reserve (~$174k) — forwarded to Jack by Mark Butler 4/22, no response yet",
+    "Landis Ridge Pay App #9 — Ryan Beadle obtaining architect signature; Jack to process draw once received",
+    "Houston SoHo DD — Reid Watler sent plans via email but not yet uploaded to SharePoint; Grant Pearson SharePoint access issue unresolved",
+    "Fort Worth Camp Bowie underwriting — pre-LOI, Miles Terry signed off on initial pass; no next milestone set",
+    "Huntington Q1 earnings — check results today for Shaw Report tenant alert update (LOW severity)"
   ]
 }
