@@ -1,52 +1,52 @@
 {
-  "date": "2026-04-23",
-  "generatedAt": "2026-04-23T17:04:56.405Z",
+  "date": "2026-04-24",
+  "generatedAt": "2026-04-24T16:10:22.449Z",
   "futures": [
     {
       "name": "S&P 500 Futures",
-      "value": "7,166.50",
-      "change": "-4.75",
-      "changePercent": "-0.07%",
-      "direction": "down",
+      "value": "7,194.50",
+      "change": "+51.00",
+      "changePercent": "+0.71%",
+      "direction": "up",
       "url": "https://finance.yahoo.com/quote/ES%3DF/"
     },
     {
       "name": "Dow Futures",
-      "value": "49,589.00",
-      "change": "-79.00",
-      "changePercent": "-0.16%",
+      "value": "49,417.00",
+      "change": "-73.00",
+      "changePercent": "-0.15%",
       "direction": "down",
       "url": "https://finance.yahoo.com/quote/YM%3DF/"
     },
     {
       "name": "Nasdaq Futures",
-      "value": "27,093.25",
-      "change": "+10.25",
-      "changePercent": "+0.04%",
+      "value": "27,398.50",
+      "change": "+464.50",
+      "changePercent": "+1.72%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/NQ%3DF/"
     },
     {
       "name": "10Y Treasury",
-      "value": "4.29%",
-      "change": "-0.00",
-      "changePercent": "-0.00%",
+      "value": "4.30%",
+      "change": "-0.02",
+      "changePercent": "-0.49%",
       "direction": "down",
       "url": "https://www.cnbc.com/quotes/US10Y"
     },
     {
       "name": "Crude Oil",
-      "value": "$94.25",
-      "change": "+1.29",
-      "changePercent": "+1.39%",
-      "direction": "up",
+      "value": "$93.38",
+      "change": "-2.47",
+      "changePercent": "-2.58%",
+      "direction": "down",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "name": "Gold",
-      "value": "$4,750.90",
-      "change": "+18.40",
-      "changePercent": "+0.39%",
+      "value": "$4,745.00",
+      "change": "+39.90",
+      "changePercent": "+0.85%",
       "direction": "up",
       "url": "https://finance.yahoo.com/quote/GC%3DF/"
     }
@@ -54,59 +54,59 @@
   "futuresLink": "https://finance.yahoo.com/markets/",
   "news": [
     {
-      "title": "Hollywood Petition to Block Paramount-Warner Bros. Merger Tops 4,000 Names as Robert De Niro, Sofia Coppola, Holly Hunter and More Join the Fight - Variety",
-      "source": "Variety",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmdJanN0YWlZZ3k1LU9EcU9nT1I0OG9mQ19PR2dzeGVXOFNER1VUb3ZjbXR3ZGpvYjBFa01CWm81LVlhc0tMdklkWW1rZGx2VjhJUVhNRzNmSWlpZG0ycnZHd1JwMVZNQ1ZQM3JSZDJWbE9XdnJIS0QzaHJuV1AyVkt4MWFBT0t5c0Jpc0hnODVYZlgyRlNqRjNZWWtOanJQTHRrME13bGViUFNmTGhWU09QMzFpYnNib191SmwtckVtc3hFSFIySDc3QlBHWWlyTy1ZYWRYY1FYeVk?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Nasdaq retreats from record as Microsoft leads software sell-off; S&P 500 ticks lower: Live updates - CNBC",
+      "title": "DOJ drops criminal probe of Fed Chair Powell, removes hurdle for Warsh confirmation - CNBC",
       "source": "CNBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FSjdYQXIyVkEzWXFnbnNjQUstVE5UNG1fYll5SFVPUTRLenY1VTh3UEcxZDA2UTBNcy1RSDBDQm1uaVZId0Y4ZUo2VU9fX0sxZW01YjQ4VnhrQzhWNk15b0RHMTNUbVlGdjZySzlfUWFya3V2TTRn0gF8QVVfeXFMTklmblpwRkV2eldjUndRNVQ5QkhULXktYjBLYjlBZlJFLVcwNkkyaDBhRTU3YTNxWUE4ZXlUcURnTXlvUFAtUFRDaE1uRUlNQk5odU96R29VVnM5VERvNTF3el9vbzdTUHdRTTIweG83dU1DVm14dkxucHJlcQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jczczUG1oZTVpNTBBMHlDak50R0V6LVR4TkJDaTQ3eDNMZ2U3S2p1bUJMVTRPZG92eG84ekJhYTRiYjlZN0VyS0ZIc3NiamtSd1RzUThKRFdobXZScGVOSHFoQ3phQmRPSHlybTVzQ2TSAXZBVV95cUxOSVE0NzZhTzVUcXRmYzJxVVcxWmJYWnRFS0g2dm5KZnFndW5yMGJzV20wTHNHWG9idUJXSmlkNXZqWURDWm51d1JqWVFsQ2NNRjlMaFFfZWg0Wkd0N3dTRzNWUmdJZUJsMTBjczVoMG5MQXZ4NDBR?oc=5",
       "category": "business"
     },
     {
-      "title": "Microsoft offers voluntary retirement to long-serving employees - The Verge",
-      "source": "The Verge",
+      "title": "Meta and Microsoft have joined the tech layoff tsunami – but is AI really to blame? - The Conversation",
+      "source": "The Conversation",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTVdrRzJGRGswWW9HYUNpVU1nRGNNcElpd0RIbURSWjFtRENZLV9iQ3BLOVhfRGJiakdvcDh5NWIyaXFGSnlYMGU5bG5rVUZQU3lpcVdEMlBiaTkwRDU4SDdKRldaT3ZZTzh5SWxDeV9WLXBIUlRHajVQWTlzdW8zcWZIMnpac2NNajFOOG9QNjNMS2hadnk5NzRVU1U5b2k1REZV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVGxwZXM5VXlGSFpNRFFKQ1ZPOUFweWhJM0oyaDVvQzh2Q0pqTjN0QThyQUk1REZMeW5ab2J4c3d1RnlJMjd5aENzTnpzdHF4R2NhS0NJX2Zwbmx5bHNJZkRlbDh2Y0dQZF9EcU1jVEJQaHZoSHhpajhLbGczczZSQTNteE1GRjN4SXU1cXUyemZBTmdjcDJna18tdGhZSXZYdGZPWmFaOERMaWV2YWNqUFg4bS1iUQ?oc=5",
       "category": "business"
     },
     {
-      "title": "Anthropic investigating possible breach of its Mythos AI model - CBS News",
+      "title": "Intel’s stock extends its spectacular run — and could see its best day in four decades - MarketWatch",
+      "source": "MarketWatch",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSl9JdjhVV0t5blRIMkJoQVBPN3psUDl6V1lJYUt0NHl5TERMblRBN1FtQ2hQcUpDdlUySlpDX3VvQjljc3VuLUZVR25qNS1EbFVwdFc3dmNDbk5NNlU3LTBBalA5QWF3Ui0xUWhqWldVa3VEbVF1U2VYTjVmcFp5MkJubzNacG1rdlBQNXFmd01zUFdOdjZRcVJjWGktdmpWRkFWWVpVRDNyZl8yalo0UEtaWXJNaWxxcmtzb2lseWVXU2szelE?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Trump Faces Conservative Mutiny Over Potential $500M Spirit Airlines Bailout - NOTUS — News of the United States",
+      "source": "NOTUS — News of the United States",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaGVRZWlNWjdjTTB3ajZSUnRTRG1kdG5wR0dWUmtqTzJ6aEtJMmQ4eHVJaWNEUlctZ0lvT3NPc1NsZGhxUy1hYTJaZzV2b3VRbENsa190cVp4UTc3SXk3V3RsVFUtLXlDOFU5bmgwWUN4UjM1X0xVRnZPUVYwOEJVckRlVWJwZ04zTzNWUG9IQzhsXzhRbGNOSl9Ud1NkN1pRSDI5RDV4ZDMzY0pGVVFXR0RR?oc=5",
+      "category": "business"
+    },
+    {
+      "title": "Pentagon considers suspending Spain from NATO, leaked email suggests - Euronews.com",
+      "source": "Euronews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDZ3dDRSajNmWjdUajBsZGE5b2ZMNHNfWS15TjhPTWtpalNWRm43Q1lkb1Y1MU1ncnJ4NkxrV0p4NkhtaDRuVW5Qc2NlaEtDRnMwOHdmc2EtbGNTakVpVnZQbmJQUXFRS2VFcjhwdFlTRXB6aC1CUF9WTmtqNEhibFZhN0oycHhyUUduaTU5dTE1dm1DOVE?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "Firing fears ripple through \"Mean Girls\" Pentagon - Axios",
+      "source": "Axios",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FalhIYm82Wk02TUJjVTlXRngxRVFvUHQ1c29SaXd5Z1J6NWRRM2NGMHJWX2h6SzVsWUxseDRMelN1Q0xCRzFmdi14ZDBMbmR0d3VfT3ZQX3cycFNhT0JsbXE1TDBtVGlybXRNSVk2U0R3WXBfbzVIazVB?oc=5",
+      "category": "world"
+    },
+    {
+      "title": "As U.S. re-arms during Iran ceasefire, long-term concerns emerge about advanced munitions supplies - CBS News",
       "source": "CBS News",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRNHQ5M3BReTJqMkRGMTlDZm5vYUlYSUlqZ3Z4UTdPZWxnbDdHcXBQNVJxMk1ickpMYkJ4MG8wSDBZV0VvWnVPbml1cTN0alB4dGl0NWdOdnMxem5tUkFUVy1DTmkxN2NJazZBeTJ5dzZHZzdoN1J6TdIBfkFVX3lxTFBDb1BkcHk5TnA4enhsVWtPYXA3UzhsN3gwNkhiYVRIcFQzci01c1h2a3R4VXdNLTh1UGNHemU0Nkp4U0Q5S3ZuakRQQ0xsQ0UxN2JvclFTV1NNcGxGT20ySk5MNmFBS3h5Nmw2Vk5PcDFyR3UtTGs4emRVYVZPQQ?oc=5",
-      "category": "business"
-    },
-    {
-      "title": "Nasdaq retreats from record as Microsoft leads software sell-off; S&P 500 ticks lower: Live updates - CNBC",
-      "source": "CNBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FSjdYQXIyVkEzWXFnbnNjQUstVE5UNG1fYll5SFVPUTRLenY1VTh3UEcxZDA2UTBNcy1RSDBDQm1uaVZId0Y4ZUo2VU9fX0sxZW01YjQ4VnhrQzhWNk15b0RHMTNUbVlGdjZySzlfUWFya3V2TTRn0gF8QVVfeXFMTklmblpwRkV2eldjUndRNVQ5QkhULXktYjBLYjlBZlJFLVcwNkkyaDBhRTU3YTNxWUE4ZXlUcURnTXlvUFAtUFRDaE1uRUlNQk5odU96R29VVnM5VERvNTF3el9vbzdTUHdRTTIweG83dU1DVm14dkxucHJlcQ?oc=5",
-      "category": "markets"
-    },
-    {
-      "title": "Live updates: Trump threatens to shoot boats laying mines as tension escalates in Strait of Hormuz - CNN",
-      "source": "CNN",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVZTdm1ObVZ3amJXVUVxazVqbWdNVkJRX2pIanpqQXp5MHFlTU96Zk9IZWVhVy1leGZ1QUtqVTdnUDZLd3pmMkM2Mm40RmlNN0dsdFdnR0xLMlhrUmlrUlZtSWFwakhZd19iQWgtcWJ5Tll3QVBYRGUyZ0djaEhrRlBVNi1PR1NvUHcwNjFR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHZVWU4wVUMxMGNRRGZuaE1HbWFzaXIxc296YXYySEJCbTNXLUg4UmRSSHhjSW5qa2I2a2NkVUZkck9Cd1haam5YMU0talpKM3NVMmlQV0lXZGJfT2JzMndIbjk1SU1FbkdNX29kQjFrZzVxdlJYV1lCT0MtVUVtQmdlcm41RnZXSEHSAY8BQVVfeXFMTU94R2RSMVpna0wzT3hGQnRMTzdKbzhiXzN5NnNZT2JNWTlLcVF5a2tWUU5Hc2htNlF5YVEyUXR4N0lKOEY1cGNGdG5tSkg5cTY3cXp3ZjBQX1lpazFOdWhIaXB5eThjMU9WLW9paGxXMnZlOXJ6Z3AwRDRXZWppRmZid3QxY01sWkZTTS0ybWc?oc=5",
       "category": "world"
     },
     {
-      "title": "Republicans take first step toward funding ICE without Democrats’ help - The Washington Post",
-      "source": "The Washington Post",
+      "title": "Israel's Benjamin Netanyahu treated for early-stage prostate cancer - BBC",
+      "source": "BBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORmVRMENkRlpSYWg4VlREZEU5RmhqVWt3Qk5KeUtNeHJac0YweHdPTlNWNGw1Sy1rTVQ4SUZpcFJETUliUnhMaFQ1R3RKS3BYeW5MT2VKTmI0SFFkVkhJRHplamx0Y1U2emVLZ2lLVExydGhTTVNrOWh1VTVIQmRTZHBlR0JFOHlkNHBzcEI1cExqM2M?oc=5",
-      "category": "world"
-    },
-    {
-      "title": "Trump administration moves to ease federal restrictions on marijuana - The Guardian",
-      "source": "The Guardian",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1pzTGlveWlaSDNnQTQ2dzBKZ0JWcVJLSGl1Znl4VEtYWDk5NkEtdlktakdTWEpERVRKbnRadXRYX3d6MGo0LUZxR0xoUGtKYVVqRTBGUGVIYUN3VEE0V0RxY3ZIX1QxcjE3X2EwV1kwRnlPMkZQZ3ducEF1Y0JVbEY0SXQycm5xRTNKTGkwVE5nanlRNGVMSjZEMmE1UV9aY090Uw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04dWFnTjMtV3ZMaTg5dndWZlZFbVJOMUh1XzYxbWh3X2dDUEtBTGNGRjhTOTNGYUhfZDNCUHJaM2ZWNk1iZDZJVDVSRTJLUzB3Zmhka1dXSlRVdw?oc=5",
       "category": "world"
     }
   ],
